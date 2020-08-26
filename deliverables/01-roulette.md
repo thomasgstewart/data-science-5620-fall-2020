@@ -81,14 +81,12 @@ above strategy.
 
 ### Submission instructions
 
-1.  Create a private Github repository with the following name:
-    `Probability and Inference Portfolio [Lastname, Firstname]`
-2.  Within the repo, create a folder called `01-roulette-simulation`
-3.  Within the folder, create an .html or .md file with the name
+1.  Within your course repo, create a folder called `01-roulette-simulation`
+1.  Within the folder, create an .html or .md file with the name
     `writeup`
-4.  Be prepared to share your blog post with the class when the
+1.  Be prepared to share your blog post with the class when the
     deliverable is due
-5.  The deliverable should be your own work. You may **discuss**
+1.  The deliverable should be your own work. You may **discuss**
     concepts with classmates, but you may **not share** code or text.
 
 Additional assumptions for the simulation.

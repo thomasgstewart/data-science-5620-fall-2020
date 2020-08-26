@@ -14,7 +14,7 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 
 | Topic | Slides | Textbook sections | Videos |
 |---|:---:|:---:|---|
-| **Simulation & Operating Characteristics** | <a class = 'callink' href ='https://biostatdata.app.vumc.org/tgs/01-simulation-slides.html'>(link)</a> | 2 | |
+| **Simulation & Operating Characteristics** | <a class = 'callink' href ='https://biostatdata.app.vumc.org/tgs/01-simulation-slides.html'>(link)</a><br>[(review)](https://biostatdata.app.vumc.org/tgs/02-simulation-review-slides.html) | 2 | <a href='https://vbiostat.app.vumc.org/index.php/s/mTEyw4YZcLp9BCq'>(link)</a> |
 | **Basic Probability Ideas** | | 1 | |
 | **Discrete Probability Models** | | 3, 4, 5 | |
 | → Probability Mass Function | | | |
