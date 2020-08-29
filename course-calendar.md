@@ -4,7 +4,7 @@
 
 | Title | First Submission Due Date | Resubmission Due Date |
 |---|---|---|
-| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/01-roulette.md'>Roulette</a> | |
+| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/01-roulette.md'>Roulette</a> | 2020-08-31 |   |
 
 ## Final Exam
 
@@ -14,7 +14,8 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 
 | Topic | Slides | Textbook sections | Videos |
 |---|:---:|:---:|---|
-| **Simulation & Operating Characteristics** | <a class = 'callink' href ='https://biostatdata.app.vumc.org/tgs/01-simulation-slides.html'>(link)</a><br>[(review)](https://biostatdata.app.vumc.org/tgs/02-simulation-review-slides.html) | 2 | <a href='https://vbiostat.app.vumc.org/index.php/s/mTEyw4YZcLp9BCq'>(link)</a> |
+| Class logistics | | |<a href='https://vbiostat.app.vumc.org/index.php/s/BNNBgE4frZEaQC2'>Calendar/Polices</a> |
+| **Simulation & Operating Characteristics** | <a class = 'callink' href ='https://biostatdata.app.vumc.org/tgs/01-simulation-slides.html'>(link)</a><br>[(review)](https://biostatdata.app.vumc.org/tgs/02-simulation-review-slides.html) | 2 | <a href='https://vbiostat.app.vumc.org/index.php/s/mTEyw4YZcLp9BCq'>Operating characteristics</a><br><a href="https://vbiostat.app.vumc.org/index.php/s/3atkTYNs9G8qFjq">Roulette</a> |
 | **Basic Probability Ideas** | | 1 | |
 | **Discrete Probability Models** | | 3, 4, 5 | |
 | → Probability Mass Function | | | |
