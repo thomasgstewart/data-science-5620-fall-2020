@@ -16,7 +16,7 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 |---|:---:|:---:|---|
 | Class logistics | | |<a href='https://vbiostat.app.vumc.org/index.php/s/BNNBgE4frZEaQC2'>Calendar/Polices</a> |
 | **Simulation & Operating Characteristics** | <a class = 'callink' href ='https://biostatdata.app.vumc.org/tgs/01-simulation-slides.html'>(link)</a><br>[(review)](https://biostatdata.app.vumc.org/tgs/02-simulation-review-slides.html) | 2 |  |
-| **Basic Probability Ideas** | | 1 | |
+| **Basic Probability Ideas** | | 1 | [(lecture)](https://vbiostat.app.vumc.org/index.php/s/ZTp9GkFBqHzo5oG) |
 | **Discrete Probability Models** | | 3, 4, 5 | |
 | → Probability Mass Function | | | |
 | → Bernouli Random Variables | | | |
@@ -67,3 +67,4 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-08-26 | [Lecture - Course Policies](https://vbiostat.app.vumc.org/index.php/s/BNNBgE4frZEaQC2) |
 | 2020-08-31 | [Lecture - Roulette Deliverable Review](https://vbiostat.app.vumc.org/index.php/s/wyzQBBJooN2EZGT) |
 | 2020-08-31 | [Offic Hours - Plotting budget profile over time (roulette deliverable](https://vbiostat.app.vumc.org/index.php/s/EBRyoKNSeziZk2d) |
+| 2020-09-02 | [Lecture - Probability](https://vbiostat.app.vumc.org/index.php/s/ZTp9GkFBqHzo5oG) |
