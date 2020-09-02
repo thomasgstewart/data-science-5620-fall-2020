@@ -33,17 +33,17 @@ PhD Biostatistics Candidate
 
 ## Instruction & Office hours <i class="fas fa-chalkboard-teacher"></i>
 
-**Format of the class:** Face-to-Face lectures will be held in the Sony Building room 2001A.  The lectures will be recorded and posted online, usually the same day.  Online office hours will be held 5 times each week, including two office hours at 8 or 9pm.  **Please note:** Circumstances may require the face-to-face portion of the class to be online.
+**Format of the class:** Face-to-Face lectures will be held in the Sony Building room 2001A.  The lectures will be recorded and posted online.  Online office hours will be held 5 times each week, including two office hours at 9pm GMT-5.  **Please note:** Circumstances may require the face-to-face portion of the class to be online.
 
 **Sony 2001A** (Face-to-Face)
 Monday, Wednesday, and Friday @ 11:30am GMT-5
 
 **Zoom** (Online, link to be posted in Slack)
-1. Monday @ 8pm GMT-5
+1. Monday @ 9pm GMT-5
+1. Wednesday @ 1pm GMT-5
 1. Wednesday @ 9pm GMT-5
-1. TBD
-1. TBD
-1. TBD
+1. Friday @ 10pm GMT-5
+1. Friday @ 1pm GMT-5
 
 ## Textbooks <i class="fas fa-book"></i>
 

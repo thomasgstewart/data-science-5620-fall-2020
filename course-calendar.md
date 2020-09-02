@@ -15,7 +15,7 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | Topic | Slides | Textbook sections | Videos |
 |---|:---:|:---:|---|
 | Class logistics | | |<a href='https://vbiostat.app.vumc.org/index.php/s/BNNBgE4frZEaQC2'>Calendar/Polices</a> |
-| **Simulation & Operating Characteristics** | <a class = 'callink' href ='https://biostatdata.app.vumc.org/tgs/01-simulation-slides.html'>(link)</a><br>[(review)](https://biostatdata.app.vumc.org/tgs/02-simulation-review-slides.html) | 2 | <a href='https://vbiostat.app.vumc.org/index.php/s/mTEyw4YZcLp9BCq'>Operating characteristics</a><br><a href="https://vbiostat.app.vumc.org/index.php/s/3atkTYNs9G8qFjq">Roulette</a> |
+| **Simulation & Operating Characteristics** | <a class = 'callink' href ='https://biostatdata.app.vumc.org/tgs/01-simulation-slides.html'>(link)</a><br>[(review)](https://biostatdata.app.vumc.org/tgs/02-simulation-review-slides.html) | 2 |  |
 | **Basic Probability Ideas** | | 1 | |
 | **Discrete Probability Models** | | 3, 4, 5 | |
 | → Probability Mass Function | | | |
@@ -58,3 +58,12 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Fitting | | | |
 | → Conditional Distribution | | | |
 | → Marginal Distribution | | | |
+
+## Lecture and Office Hours Videos
+
+| Date | Description |
+|---|---|
+| 2020-08-24 | [Lecture - Simulation](https://vbiostat.app.vumc.org/index.php/s/mTEyw4YZcLp9BCq) |
+| 2020-08-26 | [Lecture - Course Policies](https://vbiostat.app.vumc.org/index.php/s/BNNBgE4frZEaQC2) |
+| 2020-08-31 | [Lecture - Roulette Deliverable Review](https://vbiostat.app.vumc.org/index.php/s/wyzQBBJooN2EZGT) |
+| 2020-08-31 | [Offic Hours - Plotting budget profile over time (roulette deliverable](https://vbiostat.app.vumc.org/index.php/s/EBRyoKNSeziZk2d) |
