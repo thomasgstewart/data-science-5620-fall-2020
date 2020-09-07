@@ -71,3 +71,4 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-09-02 | [Lecture - Probability](https://vbiostat.app.vumc.org/index.php/s/ZTp9GkFBqHzo5oG) |
 | 2020-09-04 | [Lecture - Probability part 2](https://vbiostat.app.vumc.org/index.php/s/HPgzdztncLnHqob) |
 | 2020-09-05 | [Deliverable - Absolute and relative error](https://vbiostat.app.vumc.org/index.php/s/29CpdaTTRicBp2p) |
+| 2020-09-07 | [Lecture - Probability review](https://vbiostat.app.vumc.org/index.php/s/pypYELcirmqzZFe) |
