@@ -18,12 +18,12 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | Class logistics | | |<a href='https://vbiostat.app.vumc.org/index.php/s/BNNBgE4frZEaQC2'>Calendar/Polices</a> |
 | **Simulation & Operating Characteristics** | <a class = 'callink' href ='https://biostatdata.app.vumc.org/tgs/01-simulation-slides.html'>slides</a><br>[review](https://biostatdata.app.vumc.org/tgs/02-simulation-review-slides.html) | 2 |  |
 | **Basic Probability Ideas** | [slides](https://biostatdata.app.vumc.org/tgs/03-probability-basics-slides.html) <br> [slides part 2](https://biostatdata.app.vumc.org/tgs/04-probability-basics-part2-slides.html) | 1 | [lecture 1](https://vbiostat.app.vumc.org/index.php/s/ZTp9GkFBqHzo5oG) <br> [lecture 2](https://vbiostat.app.vumc.org/index.php/s/HPgzdztncLnHqob) |
-|  → Belief vs Frequency  | [slides]() | | |
-|  → Notebook / data.frame definition  | [slides]() | | |
-|  → And, Or  | [slides]() | 1.3 | |
-|  → Conditional Probability | [slides]() | 1.3 | |
-|  → Law of Total Probability | [slides]() | 1.3 | [Lecture](https://vbiostat.app.vumc.org/index.php/s/QiGcZmD7Rk8C7k9) |
-|  → Bayes Rule | [slides]() | 1.9 | [Lecture](https://vbiostat.app.vumc.org/index.php/s/QiGcZmD7Rk8C7k9) |
+|  → Belief vs Frequency  | | | |
+|  → Notebook / data.frame definition  | | | |
+|  → And, Or  | | 1.3 | |
+|  → Conditional Probability | | 1.3 | |
+|  → Law of Total Probability | [slides](./lectures/04-probability-bayes-rule.pdf) |
+|  → Bayes Rule | [slides](./lectures/04-probability-bayes-rule.pdf) | 1.9 | [Lecture](https://vbiostat.app.vumc.org/index.php/s/QiGcZmD7Rk8C7k9) |
 | **Discrete Probability Models** | | 3, 4, 5 | |
 | → Probability Mass Function | | | |
 | → Bernouli Random Variables | | | |
