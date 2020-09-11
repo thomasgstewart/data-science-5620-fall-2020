@@ -23,7 +23,7 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 |  → And, Or  | | 1.3 | |
 |  → Conditional Probability | | 1.3 | |
 |  → Law of Total Probability | [slides](./lectures/04-probability-bayes-rule.pdf) |
-|  → Bayes Rule | [slides](./lectures/04-probability-bayes-rule.pdf) | 1.9 | [Lecture](https://vbiostat.app.vumc.org/index.php/s/QiGcZmD7Rk8C7k9) |
+|  → Bayes Rule | [slides](./lectures/04-probability-bayes-rule.pdf) <br> [slides part 2](./lectures/04-more-bayes.pdf) | 1.9 | [Lecture](https://vbiostat.app.vumc.org/index.php/s/QiGcZmD7Rk8C7k9) <br> Lecture |
 | **Discrete Probability Models** | | 3, 4, 5 | |
 | → Probability Mass Function | | | |
 | → Bernouli Random Variables | | | |
