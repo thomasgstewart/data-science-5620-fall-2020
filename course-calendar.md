@@ -5,7 +5,7 @@
 | Title | First Submission Due Date | Resubmission Due Date |
 |---|:---:|---|
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/01-roulette.md'>Roulette</a> | 2020-08-31 | 2020-09-18 |
-| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/02-monte-carlo-error.md'>Monte Carlo Error</a> | 2020-09-07 |   |
+| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/02-monte-carlo-error.md'>Monte Carlo Error</a> | 2020-09-07 | 2020-09-25  |
 
 ## Final Exam
 
@@ -23,7 +23,7 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 |  → And, Or  | | 1.3 | |
 |  → Conditional Probability | | 1.3 | |
 |  → Law of Total Probability | [slides](./lectures/04-probability-bayes-rule.pdf) |
-|  → Bayes Rule | [slides](./lectures/04-probability-bayes-rule.pdf) <br> [slides part 2](./lectures/04-more-bayes.pdf) | 1.9 | [Lecture](https://vbiostat.app.vumc.org/index.php/s/QiGcZmD7Rk8C7k9) <br> Lecture |
+|  → Bayes Rule | [slides](./lectures/04-probability-bayes-rule.pdf) <br> [slides part 2](./lectures/04-more-bayes.pdf) | 1.9 | [Lecture](https://vbiostat.app.vumc.org/index.php/s/QiGcZmD7Rk8C7k9) <br> [Lecture](https://vbiostat.app.vumc.org/index.php/s/W6dXZFjsop3HW8K) <br> [coin toss](https://vbiostat.app.vumc.org/index.php/s/xRB9aMDC4AEn5di)|
 | **Discrete Probability Models** | | 3, 4, 5 | |
 | → Probability Mass Function | | | |
 | → Bernouli Random Variables | | | |
@@ -79,3 +79,5 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-09-05 | [Deliverable - Absolute and relative error](https://vbiostat.app.vumc.org/index.php/s/29CpdaTTRicBp2p) |
 | 2020-09-07 | [Lecture - Probability review](https://vbiostat.app.vumc.org/index.php/s/pypYELcirmqzZFe) |
 | 2020-09-09 | [Lecture - Bayes Rule](https://vbiostat.app.vumc.org/index.php/s/QiGcZmD7Rk8C7k9) |
+| 2020-09-11 | [Lecture - Probability practice questions](https://vbiostat.app.vumc.org/index.php/s/W6dXZFjsop3HW8K)|
+| 2020-09-11 | [Probability practice question - coin toss](https://vbiostat.app.vumc.org/index.php/s/xRB9aMDC4AEn5di)|
