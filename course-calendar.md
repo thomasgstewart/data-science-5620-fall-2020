@@ -6,6 +6,8 @@
 |---|:---:|---|
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/01-roulette.md'>Roulette</a> | 2020-08-31 | 2020-09-18 |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/02-monte-carlo-error.md'>Monte Carlo Error</a> | 2020-09-07 | 2020-09-25  |
+| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/03-probability-calcs.md'>Monte Carlo Error</a> | 2020-09-07 | 2020-09-25  |
+
 
 ## Final Exam
 
@@ -26,9 +28,9 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 |  → Bayes Rule | [slides](./lectures/04-probability-bayes-rule.pdf) <br> [slides part 2](./lectures/04-more-bayes.pdf) | 1.9 | [Lecture](https://vbiostat.app.vumc.org/index.php/s/QiGcZmD7Rk8C7k9) <br> [Lecture](https://vbiostat.app.vumc.org/index.php/s/W6dXZFjsop3HW8K) <br> [coin toss](https://vbiostat.app.vumc.org/index.php/s/xRB9aMDC4AEn5di)|
 | **Discrete Probability Models** | | 3, 4, 5 | |
 | → Probability Mass Function | | | |
-| → Bernouli Random Variables | | | |
-| → Binomial Random Variables | | | |
-| → Negative Binomial Random Variables | | | |
+| → Bernouli Random Variables | [slides](https://biostatdata.app.vumc.org/tgs/05-binomial-prob.html) | | [Lecture - Binomial, Negative binomial](https://vbiostat.app.vumc.org/index.php/s/tfH5MayYYnaotk8) |
+| → Binomial Random Variables | [slides](https://biostatdata.app.vumc.org/tgs/05-binomial-prob.html)| | [Lecture - Binomial, Negative binomial](https://vbiostat.app.vumc.org/index.php/s/tfH5MayYYnaotk8) |
+| → Negative Binomial Random Variables | [slides](https://biostatdata.app.vumc.org/tgs/05-binomial-prob.html) | | [Lecture - Binomial, Negative binomial](https://vbiostat.app.vumc.org/index.php/s/tfH5MayYYnaotk8) <br> [Lecture - Binomial, Negative binomial (cont)](https://vbiostat.app.vumc.org/index.php/s/H3wYDm89L5sp6qW)  |
 | → Poisson Random Variables | | | |
 | **Continuous Probability Models** | | 6 | |
 | → Cumulative Distribution Function | | | |
@@ -81,3 +83,6 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-09-09 | [Lecture - Bayes Rule](https://vbiostat.app.vumc.org/index.php/s/QiGcZmD7Rk8C7k9) |
 | 2020-09-11 | [Lecture - Probability practice questions](https://vbiostat.app.vumc.org/index.php/s/W6dXZFjsop3HW8K)|
 | 2020-09-11 | [Probability practice question - coin toss](https://vbiostat.app.vumc.org/index.php/s/xRB9aMDC4AEn5di)|
+| 2020-09-14 | [Lecture - Binomial, Negative binomial](https://vbiostat.app.vumc.org/index.php/s/tfH5MayYYnaotk8) |
+| 2020-09-16 | [Lecture - Binomial, Negative binomial (cont)](https://vbiostat.app.vumc.org/index.php/s/H3wYDm89L5sp6qW) |
+| 2020-09-16 | [Practice Problems - Binomial, Negative binomial](https://vbiostat.app.vumc.org/index.php/s/ETed5MT7ycA6NQz) | 
