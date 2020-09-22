@@ -9,6 +9,7 @@
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/03-probability-calcs.md'>World Series</a> | 2020-09-21 |  |
 
 
+
 ## Final Exam
 
 The final exam will occur between 7 December 2020 and 12 December 2020.  Students will sign up for oral exam slots in early December.
