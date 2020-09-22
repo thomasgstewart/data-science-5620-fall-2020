@@ -6,7 +6,7 @@
 |---|:---:|---|
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/01-roulette.md'>Roulette</a> | 2020-08-31 | 2020-09-18 |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/02-monte-carlo-error.md'>Monte Carlo Error</a> | 2020-09-07 | 2020-09-25  |
-| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/03-probability-calcs.md'>World Series</a> | 2020-09-07 | 2020-09-25  |
+| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/03-probability-calcs.md'>World Series</a> | 2020-09-21 |  |
 
 
 ## Final Exam

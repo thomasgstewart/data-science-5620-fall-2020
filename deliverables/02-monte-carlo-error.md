@@ -27,7 +27,9 @@ number (2<sup>2</sup>, 2<sup>3</sup>, …, 2<sup>15</sup>) and probability
 from simulation, and let *p* denote the true underlying probability.
 Calculate error as
 
-absolute error = \|*p̂*−*p*\|
+\[
+    \text{absolute error} = |\hat{p}−p|
+\]
 
 and
 
