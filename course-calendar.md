@@ -7,7 +7,7 @@
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/01-roulette.md'>Roulette</a> | 2020-08-31 | 2020-09-18 |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/02-monte-carlo-error.md'>Monte Carlo Error</a> | 2020-09-07 | 2020-09-25  |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/03-probability-calcs.md'>World Series</a> | 2020-09-21 |  |
-
+| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/04-world-series-home-field.md'>Home Field Advantage</a> | 2020-09-28 |  |
 
 
 ## Final Exam
@@ -32,7 +32,7 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Bernouli Random Variables | [slides](https://biostatdata.app.vumc.org/tgs/05-binomial-prob.html) | | [Lecture - Binomial, Negative binomial](https://vbiostat.app.vumc.org/index.php/s/tfH5MayYYnaotk8) |
 | → Binomial Random Variables | [slides](https://biostatdata.app.vumc.org/tgs/05-binomial-prob.html)| | [Lecture - Binomial, Negative binomial](https://vbiostat.app.vumc.org/index.php/s/tfH5MayYYnaotk8) |
 | → Negative Binomial Random Variables | [slides](https://biostatdata.app.vumc.org/tgs/05-binomial-prob.html) | | [Lecture - Binomial, Negative binomial](https://vbiostat.app.vumc.org/index.php/s/tfH5MayYYnaotk8) <br> [Lecture - Binomial, Negative binomial (cont)](https://vbiostat.app.vumc.org/index.php/s/H3wYDm89L5sp6qW)  |
-| → Poisson Random Variables | | | |
+| → Poisson Random Variables | [slides](https://biostatdata.app.vumc.org/tgs/06-poisson.html) | | [Lecture - Poisson distribution](https://vbiostat.app.vumc.org/index.php/s/77iw36kT3YB5TfR) |
 | **Continuous Probability Models** | | 6 | |
 | → Cumulative Distribution Function | | | |
 | → Probability Density Function | | | |
@@ -87,3 +87,6 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-09-14 | [Lecture - Binomial, Negative binomial](https://vbiostat.app.vumc.org/index.php/s/tfH5MayYYnaotk8) |
 | 2020-09-16 | [Lecture - Binomial, Negative binomial (cont)](https://vbiostat.app.vumc.org/index.php/s/H3wYDm89L5sp6qW) |
 | 2020-09-16 | [Practice Problems - Binomial, Negative binomial](https://vbiostat.app.vumc.org/index.php/s/ETed5MT7ycA6NQz) | 
+| 2020-09-18 | [Lecture - Poisson distribution](https://vbiostat.app.vumc.org/index.php/s/77iw36kT3YB5TfR) |
+| 2020-09-21 | [Lecture - Deliverable 3 question 5](https://vbiostat.app.vumc.org/index.php/s/HWEKG67wCAbrz9J) |
+ 
