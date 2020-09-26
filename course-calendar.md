@@ -32,7 +32,7 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Binomial Random Variables | [slides](https://biostatdata.app.vumc.org/tgs/05-binomial-prob.html)| | [Lecture - Binomial, Negative binomial](https://vbiostat.app.vumc.org/index.php/s/tfH5MayYYnaotk8) |
 | → Negative Binomial Random Variables | [slides](https://biostatdata.app.vumc.org/tgs/05-binomial-prob.html) | | [Lecture - Binomial, Negative binomial](https://vbiostat.app.vumc.org/index.php/s/tfH5MayYYnaotk8) <br> [Lecture - Binomial, Negative binomial (cont)](https://vbiostat.app.vumc.org/index.php/s/H3wYDm89L5sp6qW)  |
 | → Poisson Random Variables | [slides](https://biostatdata.app.vumc.org/tgs/06-poisson.html) | | [Lecture - Poisson distribution](https://vbiostat.app.vumc.org/index.php/s/77iw36kT3YB5TfR) |
-| → Probability Mass Function | [slides](https://biostatdata.app.vumc.org/tgs/07-pmf-cdf.html)| | | 2020-09-18 | [Lecture - World Series distribution](https://vbiostat.app.vumc.org/index.php/s/EmS88pZXriYTZPt) |
+| → Probability Mass Function | [slides](https://biostatdata.app.vumc.org/tgs/07-pmf-cdf.html)| | [Lecture - World Series distribution](https://vbiostat.app.vumc.org/index.php/s/EmS88pZXriYTZPt) |
 | **Continuous Probability Models** | | 6 | |
 | → Cumulative Distribution Function | [slides](https://biostatdata.app.vumc.org/tgs/08-continuous-probability-models.html) | | [Lecture - Continuous probability models](https://vbiostat.app.vumc.org/index.php/s/93FxTFYLEc8LTdo) |
 | → Probability Density Function | [slides](https://biostatdata.app.vumc.org/tgs/08-continuous-probability-models.html) | | [Lecture - Continuous probability models](https://vbiostat.app.vumc.org/index.php/s/93FxTFYLEc8LTdo) |
