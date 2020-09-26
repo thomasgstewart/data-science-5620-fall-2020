@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bayes Rule</title>
+  <title>Probability Mass Function and Cumulative Probability Function</title>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -19,7 +19,7 @@
     var SLIDE_CONFIG = {
       // Slide settings
       settings: {
-                title: 'Bayes Rule',
+                title: 'Probability Mass Function and Cumulative Probability Function',
                         useBuilds: true,
         usePrettify: true,
         enableSlideAreas: true,
@@ -1344,6 +1344,11 @@ slides > slide {
 opacity: 0;
 }
 @media print {
+
+@page {
+size: landscape;
+margin: 0;
+}
 
 slides slide {
 display: block !important;
@@ -3105,7 +3110,7 @@ slide:not(.current) .plotly.html-widget{
         <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
     <hgroup class="auto-fadein">
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
-      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      
       <p data-config-presenter><!-- populated from slide_config.json --></p>
           </hgroup>
   </slide>
@@ -3139,825 +3144,429 @@ slide:not(.current) .plotly.html-widget{
   }
 </style>
 
-<slide class=""><hgroup><h2>From the practice problems</h2></hgroup><article  id="from-the-practice-problems">
+<slide class=""><hgroup><h2>Probability Mass Function</h2></hgroup><article  id="probability-mass-function">
 
-<p><strong>Q:</strong> Suppose the folling table of probabilities described the computer type and operating system choices for the Vanderbilt student population.</p>
+<p>So far, we’ve covered</p>
+
+<ul>
+<li>Bernoulli Random Variables</li>
+<li>Binomial Random Variables</li>
+<li>Negative Binomial Random Variables</li>
+<li>Poisson Random Variables</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>In R</h2></hgroup><article  id="in-r">
+
+<p>For each distribution, we have used the R commands that</p>
+
+<ul>
+<li>output random draws, as in <code>rbinom</code>, <code>rnbinom</code>, or <code>rpois</code></li>
+<li>output probabilities of single outcomes, as in <code>dbinom</code>, <code>dnbinom</code>, or <code>dpois</code></li>
+<li>output probabilities of a range of outcomes, as in <code>pbinom</code>, <code>pnbinom</code>, of <code>ppois</code></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>The pattern for the names of R commands dealing with distributions of random variables is</h2></hgroup><article  id="the-pattern-for-the-names-of-r-commands-dealing-with-distributions-of-random-variables-is">
+
+<ul>
+<li><code>r</code>+<code>distribution name</code></li>
+<li><code>d</code>+<code>distribution name</code></li>
+<li><code>p</code>+<code>distribution name</code></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>The probability mass function</h2></hgroup><article  id="the-probability-mass-function">
+
+<ul>
+<li>For discrete random variables, the function that maps potential outcomes to the probability of the outcome is known as the <strong>probability mass function</strong>. The term is often denoted as <strong>pmf</strong>.</li>
+</ul>
 
 <table class = 'rmdtable'>
 <tr class="header">
-<th align="center">Product</th>
-<th align="center">Apple OS</th>
-<th align="center">Windows OS</th>
-<th align="center"></th>
+<th align="center">Potential Outcome</th>
+<th align="center">Probability</th>
 </tr>
 <tr class="odd">
-<td align="center">Laptop</td>
-<td align="center">a</td>
-<td align="center">b</td>
-<td align="center">.80</td>
+<td align="center">0</td>
+<td align="center">.1</td>
 </tr>
 <tr class="even">
-<td align="center">Desktop</td>
-<td align="center">c</td>
-<td align="center">.15</td>
-<td align="center">d</td>
+<td align="center">1</td>
+<td align="center">.5</td>
 </tr>
 <tr class="odd">
-<td align="center"></td>
-<td align="center">.60</td>
-<td align="center">e</td>
-<td align="center">f</td>
+<td align="center">2</td>
+<td align="center">.3</td>
+</tr>
+<tr class="even">
+<td align="center">3</td>
+<td align="center">.1</td>
 </tr>
 </table>
 
-</article></slide><slide class=""><hgroup><h2>Solution</h2></hgroup><article  id="solution">
+</article></slide><slide class=""><hgroup><h2>The probability mass function</h2></hgroup><article  id="the-probability-mass-function-1">
 
-<p><strong>Q:</strong> Suppose the folling table of probabilities described the computer type and operating system choices for the Vanderbilt student population.</p>
+<ul>
+<li>Often the mapping between potential outcomes and the corresponding probability can be described with a mathematical function.</li>
+</ul>
+
+<p>For example, if \(X\sim BINOMIAL(N,p)\), then</p>
+
+<p>\[P(X = x) = {N \choose x}p^x(1-p)^{N-x}\]</p>
+
+</article></slide><slide class=""><hgroup><h2>The cumulative probability function</h2></hgroup><article  id="the-cumulative-probability-function">
+
+<ul>
+<li>The function that maps the <code>left tail</code> range of potential outcomes to the corresponding probability is known as the <strong>cumulative probability function</strong> or the <strong>CDF</strong>.</li>
+</ul>
 
 <table class = 'rmdtable'>
 <tr class="header">
-<th align="center">Product</th>
-<th align="center">Apple OS</th>
-<th align="center">Windows OS</th>
-<th align="center"></th>
+<th align="center">Potential Outcome</th>
+<th align="center">Probability</th>
+<th align="center">Cumulative Probability</th>
 </tr>
 <tr class="odd">
-<td align="center">Laptop</td>
-<td align="center">.55</td>
-<td align="center">.25</td>
-<td align="center">.80</td>
+<td align="center">0</td>
+<td align="center">.1</td>
+<td align="center">.1</td>
 </tr>
 <tr class="even">
-<td align="center">Desktop</td>
-<td align="center">.05</td>
-<td align="center">.15</td>
-<td align="center">.20</td>
+<td align="center">1</td>
+<td align="center">.5</td>
+<td align="center">.6</td>
 </tr>
 <tr class="odd">
-<td align="center"></td>
-<td align="center">.60</td>
-<td align="center">.40</td>
+<td align="center">2</td>
+<td align="center">.3</td>
+<td align="center">.9</td>
+</tr>
+<tr class="even">
+<td align="center">3</td>
+<td align="center">.1</td>
 <td align="center">1</td>
 </tr>
 </table>
 
-</article></slide><slide class=""><hgroup><h2>Slightly different practice problem</h2></hgroup><article  id="slightly-different-practice-problem">
+</article></slide><slide class=""><hgroup><h2>The cumulative probability function</h2></hgroup><article  id="the-cumulative-probability-function-1">
 
-<p><strong>Q:</strong> Suppose the folling table of probabilities described the computer type and operating system choices for the Vanderbilt student population.</p>
+<ul>
+<li><p>The function that maps the <code>left tail</code> range of potential outcomes to the corresponding probability is known as the <strong>cumulative probability function</strong> or the <strong>CDF</strong>.</p></li>
+<li><p>Often the mapping between potential outcomes and the corresponding probability can be described with a mathematical function.</p></li>
+</ul>
+
+<p>For example, if \(X\sim BINOMIAL(N,p)\), then</p>
+
+<p>\[P(X \leq x) = \sum_{i=0}^x {N \choose i}p^i(1-p)^{N-i}\]</p>
+
+</article></slide><slide class=""><hgroup><h2>The cumulative probability function</h2></hgroup><article  id="the-cumulative-probability-function-2">
+
+<ul>
+<li><p>The function that maps the <code>left tail</code> range of potential outcomes to the corresponding probability is known as the <strong>cumulative probability function</strong> or the <strong>CDF</strong>.</p></li>
+<li><p>Often the mapping between potential outcomes and the corresponding probability can be described with a mathematical function.</p></li>
+</ul>
+
+<p>For example, if \(X\sim BINOMIAL(N,p)\), then</p>
+
+<p>\[P(X \leq x) = \sum_{i=0}^x {N \choose i}p^i(1-p)^{N-i} = \texttt{pbinom(x,N,p)}\]</p>
+
+</article></slide><slide class=""><hgroup><h2>World Series Distribution</h2></hgroup><article  id="world-series-distribution">
+
+<ul>
+<li>In the previous deliverable, you have worked with the negative binomial distribution to calculate probabilities related to a BEST-OF-7 sequence of games.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>World Series Distribution</h2></hgroup><article  id="world-series-distribution-1">
+
+<ul>
+<li><p>In the previous deliverable, you have worked with the negative binomial distribution to calculate probabilities related to a BEST-OF-7 sequence of games.</p></li>
+<li><p>While the probabilities of the outcome of a BEST-OF-X sequence of games <strong>uses</strong> negative binomial probabilities, it is <strong>not</strong> a negative binomial distribution.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>World Series Distribution</h2></hgroup><article  id="world-series-distribution-2">
 
 <table class = 'rmdtable'>
 <tr class="header">
-<th align="center">Product</th>
-<th align="center">Apple OS</th>
-<th align="center">Windows OS</th>
-<th align="center"></th>
+<th align="left"></th>
+<th align="center">Negative Binomial</th>
+<th align="center">BEST-OF-X games</th>
 </tr>
 <tr class="odd">
-<td align="center">Laptop</td>
-<td align="center">a</td>
-<td align="center">b</td>
-<td align="center">.80</td>
-</tr>
-<tr class="even">
-<td align="center">Desktop</td>
-<td align="center">c</td>
-<td align="center">d</td>
-<td align="center">e</td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center">f</td>
-<td align="center">g</td>
-<td align="center">h</td>
+<td align="left">Stopping Rule</td>
+<td align="center">\(K\) successes</td>
+<td align="center">\(K\) successes or \(K\) failures</td>
 </tr>
 </table>
 
-<ul>
-<li>\(P(\text{Apple OS} | \text{Laptop}) = .8\)</li>
-<li>\(P(\text{Apple OS} | \text{Desktop}) = .3\)</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>Solution</h2></hgroup><article  id="solution-1">
-
-<p><strong>Q:</strong> Suppose the folling table of probabilities described the computer type and operating system choices for the Vanderbilt student population.</p>
+</article></slide><slide class=""><hgroup><h2>World Series Distribution</h2></hgroup><article  id="world-series-distribution-3">
 
 <table class = 'rmdtable'>
 <tr class="header">
-<th align="center">Product</th>
-<th align="center">Apple OS</th>
-<th align="center">Windows OS</th>
+<th align="left"></th>
+<th align="center">Negative Binomial</th>
+<th align="center">BEST-OF-X games</th>
+</tr>
+<tr class="odd">
+<td align="left">Stopping Rule</td>
+<td align="center">\(K\) successes</td>
+<td align="center">\(K\) successes or \(K\) failures</td>
+</tr>
+<tr class="even">
+<td align="left">Possible outcomes</td>
+<td align="center">0,1, …</td>
+<td align="center">???</td>
+</tr>
+</table>
+
+</article></slide><slide class=""><hgroup><h2>World Series Distribution</h2></hgroup><article  id="world-series-distribution-4">
+
+<ul>
+<li>Let \(p\) = \(P(\text{Team A wins an individual game})\)</li>
+</ul>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left"></th>
+<th align="center">Team A Wins</th>
+<th align="center">Team B Wins</th>
+</tr>
+<tr class="odd">
+<td align="left">4</td>
+<td align="center"><code>dnbinom(0,4,p)</code></td>
+<td align="center"><code>dnbinom(0,4,1-p)</code></td>
+</tr>
+<tr class="even">
+<td align="left">5</td>
+<td align="center"><code>dnbinom(1,4,p)</code></td>
+<td align="center"><code>dnbinom(1,4,1-p)</code></td>
+</tr>
+<tr class="odd">
+<td align="left">6</td>
+<td align="center"><code>dnbinom(2,4,p)</code></td>
+<td align="center"><code>dnbinom(2,4,1-p)</code></td>
+</tr>
+<tr class="even">
+<td align="left">7</td>
+<td align="center"><code>dnbinom(3,4,p)</code></td>
+<td align="center"><code>dnbinom(3,4,1-p)</code></td>
+</tr>
+</table>
+
+</article></slide><slide class=""><hgroup><h2>World Series Distribution</h2></hgroup><article  id="world-series-distribution-5">
+
+<ul>
+<li>Let \(p\) = \(P(\text{Team A wins an individual game})\)</li>
+</ul>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left"></th>
+<th align="center">Team A Wins</th>
+<th align="center">Team B Wins</th>
 <th align="center"></th>
 </tr>
 <tr class="odd">
-<td align="center">Laptop</td>
-<td align="center">.64</td>
-<td align="center">.16</td>
-<td align="center">.80</td>
+<td align="left">4</td>
+<td align="center"><code>dnbinom(0,4,p)</code></td>
+<td align="center"><code>dnbinom(0,4,1-p)</code></td>
+<td align="center">?</td>
 </tr>
 <tr class="even">
-<td align="center">Desktop</td>
-<td align="center">.06</td>
-<td align="center">.14</td>
-<td align="center">.20</td>
+<td align="left">5</td>
+<td align="center"><code>dnbinom(1,4,p)</code></td>
+<td align="center"><code>dnbinom(1,4,1-p)</code></td>
+<td align="center">?</td>
 </tr>
 <tr class="odd">
-<td align="center"></td>
-<td align="center">.70</td>
-<td align="center">.30</td>
+<td align="left">6</td>
+<td align="center"><code>dnbinom(2,4,p)</code></td>
+<td align="center"><code>dnbinom(2,4,1-p)</code></td>
+<td align="center">?</td>
+</tr>
+<tr class="even">
+<td align="left">7</td>
+<td align="center"><code>dnbinom(3,4,p)</code></td>
+<td align="center"><code>dnbinom(3,4,1-p)</code></td>
+<td align="center">?</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="center">?</td>
+<td align="center">?</td>
 <td align="center">1</td>
 </tr>
 </table>
 
+</article></slide><slide class=""><hgroup><h2>World Series Distribution</h2></hgroup><article  id="world-series-distribution-6">
+
 <ul>
-<li>\(P(\text{Apple OS} | \text{Laptop}) = .8\)</li>
-<li>\(P(\text{Apple OS} | \text{Desktop}) = .3\)</li>
+<li>Let \(p\) = \(P(\text{Team A wins an individual game})\)</li>
 </ul>
-
-</article></slide><slide class=""><hgroup><h2>From previously in class</h2></hgroup><article  id="from-previously-in-class">
-
-<p><strong>Q:</strong> Machines A, B, and C generate widgets with a defect rate of 0.1, 0.01, and 0.001, respectively. If machine A generates 3.5 times as many widgets as B, and machine B generates 2 times as many widgets as machine C, what is the probability that a randomly selected widget is defective.</p>
-
-</article></slide><slide class=""><hgroup><h2>From previously in class</h2></hgroup><article  id="from-previously-in-class-1">
-
-<p><strong>Q:</strong> Machines A, B, and C generate widgets with a defect rate of 0.1, 0.01, and 0.001, respectively. If machine A generates 3.5 times as many widgets as B, and machine B generates 2 times as many widgets as machine C, what is the probability that a randomly selected widget is defective.</p>
 
 <table class = 'rmdtable'>
 <tr class="header">
-<th align="center">Machine</th>
-<th align="center">A</th>
-<th align="center">B</th>
-<th align="center">C</th>
-</tr>
-<tr class="odd">
-<td align="center">Defective</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td align="center">Normal</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center">.70</td>
-<td align="center">.20</td>
-<td align="center">.10</td>
-</tr>
-</table>
-
-<ul>
-<li>\(P(\text{Defective}|\text{Machine A}) = 0.1\)</li>
-<li>\(P(\text{Defective}|\text{Machine B}) = 0.01\)</li>
-<li>\(P(\text{Defective}|\text{Machine C}) = 0.001\)</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>From previously in class</h2></hgroup><article  id="from-previously-in-class-2">
-
-<p><strong>Q:</strong> Machines A, B, and C generate widgets with a defect rate of 0.1, 0.01, and 0.001, respectively. If machine A generates 3.5 times as many widgets as B, and machine B generates 2 times as many widgets as machine C, what is the probability that a randomly selected widget is defective.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center">Machine</th>
-<th align="center">A</th>
-<th align="center">B</th>
-<th align="center">C</th>
-</tr>
-<tr class="odd">
-<td align="center">Defective</td>
-<td align="center"><strong>(.7)(.1) = .01</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td align="center">Normal</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center">.70</td>
-<td align="center">.20</td>
-<td align="center">.10</td>
-</tr>
-</table>
-
-<ul>
-<li>\(P(\text{Defective}|\text{Machine A}) = 0.1\)</li>
-<li>\(P(\text{Defective}|\text{Machine B}) = 0.01\)</li>
-<li>\(P(\text{Defective}|\text{Machine C}) = 0.001\)</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>From previously in class</h2></hgroup><article  id="from-previously-in-class-3">
-
-<p><strong>Q:</strong> Machines A, B, and C generate widgets with a defect rate of 0.1, 0.01, and 0.001, respectively. If machine A generates 3.5 times as many widgets as B, and machine B generates 2 times as many widgets as machine C, what is the probability that a randomly selected widget is defective.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center">Machine</th>
-<th align="center">A</th>
-<th align="center">B</th>
-<th align="center">C</th>
-</tr>
-<tr class="odd">
-<td align="center">Defective</td>
-<td align="center"><strong>(.7)(.1) = .01</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td align="center">Normal</td>
-<td align="center">.69</td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center">.70</td>
-<td align="center">.20</td>
-<td align="center">.10</td>
-</tr>
-</table>
-
-<ul>
-<li>\(P(\text{Defective}|\text{Machine A}) = 0.1\)</li>
-<li>\(P(\text{Defective}|\text{Machine B}) = 0.01\)</li>
-<li>\(P(\text{Defective}|\text{Machine C}) = 0.001\)</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>From previously in class</h2></hgroup><article  id="from-previously-in-class-4">
-
-<p><strong>Q:</strong> Machines A, B, and C generate widgets with a defect rate of 0.1, 0.01, and 0.001, respectively. If machine A generates 3.5 times as many widgets as B, and machine B generates 2 times as many widgets as machine C, what is the probability that a randomly selected widget is defective.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center">Machine</th>
-<th align="center">A</th>
-<th align="center">B</th>
-<th align="center">C</th>
-</tr>
-<tr class="odd">
-<td align="center">Defective</td>
-<td align="center">.01</td>
-<td align="center"><strong>0.002</strong></td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td align="center">Normal</td>
-<td align="center">.69</td>
-<td align="center"><strong>0.198</strong></td>
-<td align="center"></td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center">.70</td>
-<td align="center">.20</td>
-<td align="center">.10</td>
-</tr>
-</table>
-
-<ul>
-<li>\(P(\text{Defective}|\text{Machine A}) = 0.1\)</li>
-<li>\(P(\text{Defective}|\text{Machine B}) = 0.01\)</li>
-<li>\(P(\text{Defective}|\text{Machine C}) = 0.001\)</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>From previously in class</h2></hgroup><article  id="from-previously-in-class-5">
-
-<p><strong>Q:</strong> Machines A, B, and C generate widgets with a defect rate of 0.1, 0.01, and 0.001, respectively. If machine A generates 3.5 times as many widgets as B, and machine B generates 2 times as many widgets as machine C, what is the probability that a randomly selected widget is defective.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center">Machine</th>
-<th align="center">A</th>
-<th align="center">B</th>
-<th align="center">C</th>
-</tr>
-<tr class="odd">
-<td align="center">Defective</td>
-<td align="center">.01</td>
-<td align="center">0.002</td>
-<td align="center"><strong>0.0001</strong></td>
-</tr>
-<tr class="even">
-<td align="center">Normal</td>
-<td align="center">.69</td>
-<td align="center">0.198</td>
-<td align="center"><strong>0.0999</strong></td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center">.70</td>
-<td align="center">.20</td>
-<td align="center">.10</td>
-</tr>
-</table>
-
-<ul>
-<li>\(P(\text{Defective}|\text{Machine A}) = 0.1\)</li>
-<li>\(P(\text{Defective}|\text{Machine B}) = 0.01\)</li>
-<li>\(P(\text{Defective}|\text{Machine C}) = 0.001\)</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>From previously in class</h2></hgroup><article  id="from-previously-in-class-6">
-
-<p><strong>Q:</strong> Machines A, B, and C generate widgets with a defect rate of 0.1, 0.01, and 0.001, respectively. If machine A generates 3.5 times as many widgets as B, and machine B generates 2 times as many widgets as machine C, what is the probability that a randomly selected widget is defective.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center">Machine</th>
-<th align="center">A</th>
-<th align="center">B</th>
-<th align="center">C</th>
+<th align="left"></th>
+<th align="center">Team A Wins</th>
+<th align="center">Team B Wins</th>
 <th align="center"></th>
 </tr>
 <tr class="odd">
-<td align="center">Defective</td>
-<td align="center">.01</td>
-<td align="center">0.002</td>
-<td align="center">0.0001</td>
-<td align="center"><strong>0.0121</strong></td>
+<td align="left">4</td>
+<td align="center"><code>dnbinom(0,4,p)</code></td>
+<td align="center"><code>dnbinom(0,4,1-p)</code></td>
+<td align="center">?</td>
 </tr>
 <tr class="even">
-<td align="center">Normal</td>
-<td align="center">.69</td>
-<td align="center">0.198</td>
-<td align="center">0.0999</td>
-<td align="center"><strong>0.9879</strong></td>
+<td align="left">5</td>
+<td align="center"><code>dnbinom(1,4,p)</code></td>
+<td align="center"><code>dnbinom(1,4,1-p)</code></td>
+<td align="center">\(P(\text{WS is 5 games})\)</td>
 </tr>
 <tr class="odd">
-<td align="center"></td>
-<td align="center">.70</td>
-<td align="center">.20</td>
-<td align="center">.10</td>
+<td align="left">6</td>
+<td align="center"><code>dnbinom(2,4,p)</code></td>
+<td align="center"><code>dnbinom(2,4,1-p)</code></td>
+<td align="center">?</td>
+</tr>
+<tr class="even">
+<td align="left">7</td>
+<td align="center"><code>dnbinom(3,4,p)</code></td>
+<td align="center"><code>dnbinom(3,4,1-p)</code></td>
+<td align="center">?</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="center">?</td>
+<td align="center">?</td>
 <td align="center">1</td>
 </tr>
 </table>
 
+</article></slide><slide class=""><hgroup><h2>World Series Distribution</h2></hgroup><article  id="world-series-distribution-7">
+
 <ul>
-<li>\(P(\text{Defective}|\text{Machine A}) = 0.1\)</li>
-<li>\(P(\text{Defective}|\text{Machine B}) = 0.01\)</li>
-<li>\(P(\text{Defective}|\text{Machine C}) = 0.001\)</li>
+<li>Let \(p\) = \(P(\text{Team A wins an individual game})\)</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>From previously in class</h2></hgroup><article  id="from-previously-in-class-7">
-
-<p><strong>Q:</strong> Machines A, B, and C generate widgets with a defect rate of 0.1, 0.01, and 0.001, respectively. If machine A generates 3.5 times as many widgets as B, and machine B generates 2 times as many widgets as machine C, what is the probability that a randomly selected widget is defective.</p>
-
 <table class = 'rmdtable'>
 <tr class="header">
-<th align="center">Machine</th>
-<th align="center">A</th>
-<th align="center">B</th>
-<th align="center">C</th>
+<th align="left"></th>
+<th align="center">Team A Wins</th>
+<th align="center">Team B Wins</th>
 <th align="center"></th>
 </tr>
 <tr class="odd">
-<td align="center">Defective</td>
-<td align="center">.01</td>
-<td align="center">0.002</td>
-<td align="center">0.0001</td>
-<td align="center"><strong>Answer:</strong> <strong>0.0121</strong></td>
+<td align="left">4</td>
+<td align="center"><code>dnbinom(0,4,p)</code></td>
+<td align="center"><code>dnbinom(0,4,1-p)</code></td>
+<td align="center">\(P(\text{WS is 4 games})\)</td>
 </tr>
 <tr class="even">
-<td align="center">Normal</td>
-<td align="center">.69</td>
-<td align="center">0.198</td>
-<td align="center">0.0999</td>
-<td align="center">0.9879</td>
+<td align="left">5</td>
+<td align="center"><code>dnbinom(1,4,p)</code></td>
+<td align="center"><code>dnbinom(1,4,1-p)</code></td>
+<td align="center">\(P(\text{WS is 5 games})\)</td>
 </tr>
 <tr class="odd">
-<td align="center"></td>
-<td align="center">.70</td>
-<td align="center">.20</td>
-<td align="center">.10</td>
+<td align="left">6</td>
+<td align="center"><code>dnbinom(2,4,p)</code></td>
+<td align="center"><code>dnbinom(2,4,1-p)</code></td>
+<td align="center">\(P(\text{WS is 6 games})\)</td>
+</tr>
+<tr class="even">
+<td align="left">7</td>
+<td align="center"><code>dnbinom(3,4,p)</code></td>
+<td align="center"><code>dnbinom(3,4,1-p)</code></td>
+<td align="center">\(P(\text{WS is 7 games})\)</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="center">?</td>
+<td align="center">?</td>
 <td align="center">1</td>
 </tr>
 </table>
 
+</article></slide><slide class=""><hgroup><h2>World Series Distribution</h2></hgroup><article  id="world-series-distribution-8">
+
 <ul>
-<li>\(P(\text{Defective}|\text{Machine A}) = 0.1\)</li>
-<li>\(P(\text{Defective}|\text{Machine B}) = 0.01\)</li>
-<li>\(P(\text{Defective}|\text{Machine C}) = 0.001\)</li>
+<li>Let \(p\) = \(P(\text{Team A wins an individual game})\)</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>From the deliverable</h2></hgroup><article  id="from-the-deliverable">
-
-<p><strong>Q:</strong> Calculate \(P(P_B = 0.55 | \text{Braves win WS in 7 games})\) under the assumption that either \(P_B=0.55\) or \(P_B=0.45\). Explain your solution.</p>
-
-</article></slide><slide class=""><hgroup><h2>From the deliverable</h2></hgroup><article  id="from-the-deliverable-1">
-
-<p><strong>Q:</strong> Calculate \(P(P_B = 0.55 | \text{Braves win WS in 7 games})\) under the assumption that either \(P_B=0.55\) or \(P_B=0.45\). Explain your solution.</p>
-
 <table class = 'rmdtable'>
 <tr class="header">
-<th align="center"></th>
-<th align="center">Braves win WS in 7 games</th>
-<th align="center">Braves do NOT win WS in 7 games</th>
+<th align="left"></th>
+<th align="center">Team A Wins</th>
+<th align="center">Team B Wins</th>
 <th align="center"></th>
 </tr>
 <tr class="odd">
-<td align="center">\(P_B = 0.55\)</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="left">4</td>
+<td align="center"><code>dnbinom(0,4,p)</code></td>
+<td align="center"><code>dnbinom(0,4,1-p)</code></td>
+<td align="center">\(P(\text{WS is 4 games})\)</td>
 </tr>
 <tr class="even">
-<td align="center">\(P_B = 0.45\)</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="left">5</td>
+<td align="center"><code>dnbinom(1,4,p)</code></td>
+<td align="center"><code>dnbinom(1,4,1-p)</code></td>
+<td align="center">\(P(\text{WS is 5 games})\)</td>
 </tr>
 <tr class="odd">
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="left">6</td>
+<td align="center"><code>dnbinom(2,4,p)</code></td>
+<td align="center"><code>dnbinom(2,4,1-p)</code></td>
+<td align="center">\(P(\text{WS is 6 games})\)</td>
+</tr>
+<tr class="even">
+<td align="left">7</td>
+<td align="center"><code>dnbinom(3,4,p)</code></td>
+<td align="center"><code>dnbinom(3,4,1-p)</code></td>
+<td align="center">\(P(\text{WS is 7 games})\)</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="center">\(P(\text{Team A Wins WS})\)</td>
+<td align="center">\(P(\text{Team B Wins WS})\)</td>
 <td align="center">1</td>
 </tr>
 </table>
 
-</article></slide><slide class=""><hgroup><h2>From the deliverable</h2></hgroup><article  id="from-the-deliverable-2">
-
-<p><strong>Q:</strong> Calculate \(P(P_B = 0.55 | \text{Braves win WS in 7 games})\) under the assumption that either \(P_B=0.55\) or \(P_B=0.45\). Explain your solution.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center"></th>
-<th align="center">Braves win WS in 7 games</th>
-<th align="center">Braves do NOT win WS in 7 games</th>
-<th align="center"></th>
-</tr>
-<tr class="odd">
-<td align="center">\(P_B = 0.55\)</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"><strong>0.5</strong></td>
-</tr>
-<tr class="even">
-<td align="center">\(P_B = 0.45\)</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"><strong>0.5</strong></td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">1</td>
-</tr>
-</table>
+</article></slide><slide class=""><hgroup><h2>World Series Distribution</h2></hgroup><article  id="world-series-distribution-9">
 
 <ul>
-<li>\(P(P_B = 0.55) = 0.5\), by assumption</li>
+<li>Do you recall the assumptions implicit in the binomial or negative binomial distributions?</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>From the deliverable</h2></hgroup><article  id="from-the-deliverable-3">
-
-<p><strong>Q:</strong> Calculate \(P(P_B = 0.55 | \text{Braves win WS in 7 games})\) under the assumption that either \(P_B=0.55\) or \(P_B=0.45\). Explain your solution.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center"></th>
-<th align="center">Braves win WS in 7 games</th>
-<th align="center">Braves do NOT win WS in 7 games</th>
-<th align="center"></th>
-</tr>
-<tr class="odd">
-<td align="center">\(P_B = 0.55\)</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">0.5</td>
-</tr>
-<tr class="even">
-<td align="center">\(P_B = 0.45\)</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">0.5</td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">1</td>
-</tr>
-</table>
+</article></slide><slide class=""><hgroup><h2>World Series Distribution</h2></hgroup><article  id="world-series-distribution-10">
 
 <ul>
-<li>\(P(P_B = 0.55) = 0.5\), by assumption</li>
-<li>Can calculate \(P(\text{Braves win WS in 7 games} | P_B = 0.55)\) with <code>dnbinom(?,?,?)</code>.</li>
+<li><p>Do you recall the assumptions implicit in the binomial or negative binomial distributions?</p>
+
+<ul>
+<li>Each Bernoulli trial is independent</li>
+<li>\(p\) is constant for each trial</li>
+</ul></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>From the deliverable</h2></hgroup><article  id="from-the-deliverable-4">
-
-<p><strong>Q:</strong> Calculate \(P(P_B = 0.55 | \text{Braves win WS in 7 games})\) under the assumption that either \(P_B=0.55\) or \(P_B=0.45\). Explain your solution.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center"></th>
-<th align="center">Braves win WS in 7 games</th>
-<th align="center">Braves do NOT win WS in 7 games</th>
-<th align="center"></th>
-</tr>
-<tr class="odd">
-<td align="center">\(P_B = 0.55\)</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">0.5</td>
-</tr>
-<tr class="even">
-<td align="center">\(P_B = 0.45\)</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">0.5</td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">1</td>
-</tr>
-</table>
+</article></slide><slide class=""><hgroup><h2>World Series Distribution</h2></hgroup><article  id="world-series-distribution-11">
 
 <ul>
-<li>\(P(P_B = 0.55) = 0.5\), by assumption</li>
-<li>Can calculate \(P(\text{Braves win WS in 7 games} | P_B = 0.55)\) with <code>dnbinom(3,4,0.55)</code>.</li>
+<li><p>Do you recall the assumptions implicit in the binomial or negative binomial distributions?</p>
+
+<ul>
+<li>Each Bernoulli trial is independent</li>
+<li>\(p\) is constant for each trial</li>
+</ul></li>
+<li><p>What if \(p\) is not constant?</p></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>From the deliverable</h2></hgroup><article  id="from-the-deliverable-5">
-
-<p><strong>Q:</strong> Calculate \(P(P_B = 0.55 | \text{Braves win WS in 7 games})\) under the assumption that either \(P_B=0.55\) or \(P_B=0.45\). Explain your solution.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center"></th>
-<th align="center">Braves win WS in 7 games</th>
-<th align="center">Braves do NOT win WS in 7 games</th>
-<th align="center"></th>
-</tr>
-<tr class="odd">
-<td align="center">\(P_B = 0.55\)</td>
-<td align="center"><code>dnbinom(3,4,0.55)*0.5 = 0.083</code></td>
-<td align="center"></td>
-<td align="center">0.5</td>
-</tr>
-<tr class="even">
-<td align="center">\(P_B = 0.45\)</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">0.5</td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">1</td>
-</tr>
-</table>
+</article></slide><slide class=""><hgroup><h2>What if \(p\) is not constant?</h2></hgroup><article  id="what-if-p-is-not-constant">
 
 <ul>
-<li>\(P(P_B = 0.55) = 0.5\), by assumption</li>
-<li>Can calculate \(P(\text{Braves win WS in 7 games} | P_B = 0.55)\) with <code>dnbinom(3,4,0.55)</code>.</li>
-<li>Can calculate joint probability.</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>From the deliverable</h2></hgroup><article  id="from-the-deliverable-6">
-
-<p><strong>Q:</strong> Calculate \(P(P_B = 0.55 | \text{Braves win WS in 7 games})\) under the assumption that either \(P_B=0.55\) or \(P_B=0.45\). Explain your solution.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center"></th>
-<th align="center">Braves win WS in 7 games</th>
-<th align="center">Braves do NOT win WS in 7 games</th>
-<th align="center"></th>
-</tr>
-<tr class="odd">
-<td align="center">\(P_B = 0.55\)</td>
-<td align="center">0.083</td>
-<td align="center"><strong>0.417</strong></td>
-<td align="center">0.5</td>
-</tr>
-<tr class="even">
-<td align="center">\(P_B = 0.45\)</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">0.5</td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">1</td>
-</tr>
-</table>
+<li><p>Use the tools already developed for sequences of Bernoulli trials?</p>
 
 <ul>
-<li>\(P(P_B = 0.55) = 0.5\), by assumption</li>
-<li>Can calculate \(P(\text{Braves win WS in 7 games} | P_B = 0.55)\) with <code>dnbinom(3,4,0.55)</code>.</li>
-<li>Can calculate joint probability.</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>From the deliverable</h2></hgroup><article  id="from-the-deliverable-7">
-
-<p><strong>Q:</strong> Calculate \(P(P_B = 0.55 | \text{Braves win WS in 7 games})\) under the assumption that either \(P_B=0.55\) or \(P_B=0.45\). Explain your solution.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center"></th>
-<th align="center">Braves win WS in 7 games</th>
-<th align="center">Braves do NOT win WS in 7 games</th>
-<th align="center"></th>
-</tr>
-<tr class="odd">
-<td align="center">\(P_B = 0.55\)</td>
-<td align="center">0.083</td>
-<td align="center">0.417</td>
-<td align="center">0.5</td>
-</tr>
-<tr class="even">
-<td align="center">\(P_B = 0.45\)</td>
-<td align="center"><code>dnbinom(3,4,0.45)*0.5=0.068</code></td>
-<td align="center"></td>
-<td align="center">0.5</td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center"><strong>0.151</strong></td>
-<td align="center"></td>
-<td align="center">1</td>
-</tr>
-</table>
-
-<ul>
-<li>\(P(P_B = 0.55) = 0.5\), by assumption</li>
-<li>Can calculate \(P(\text{Braves win WS in 7 games} | P_B = 0.45)\) with <code>dnbinom(3,4,0.45)</code>.</li>
-<li>Can calculate joint probability.</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>From the deliverable</h2></hgroup><article  id="from-the-deliverable-8">
-
-<p><strong>Q:</strong> Calculate \(P(P_B = 0.55 | \text{Braves win WS in 7 games})\) under the assumption that either \(P_B=0.55\) or \(P_B=0.45\). Explain your solution.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center"></th>
-<th align="center">Braves win WS in 7 games</th>
-<th align="center">Braves do NOT win WS in 7 games</th>
-<th align="center"></th>
-</tr>
-<tr class="odd">
-<td align="center">\(P_B = 0.55\)</td>
-<td align="center">0.083</td>
-<td align="center">0.417</td>
-<td align="center">0.5</td>
-</tr>
-<tr class="even">
-<td align="center">\(P_B = 0.45\)</td>
-<td align="center">0.068</td>
-<td align="center"><strong>0.432</strong></td>
-<td align="center">0.5</td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center">0.151</td>
-<td align="center"><strong>.849</strong></td>
-<td align="center">1</td>
-</tr>
-</table>
-
-<ul>
-<li>\(P(P_B = 0.55) = 0.5\), by assumption</li>
-<li>Can calculate \(P(\text{Braves win WS in 7 games} | P_B = 0.45)\) with <code>dnbinom(3,4,0.45)</code>.</li>
-<li>Can calculate joint probability.</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>From the deliverable</h2></hgroup><article  id="from-the-deliverable-9">
-
-<p><strong>Q:</strong> Calculate \(P(P_B = 0.55 | \text{Braves win WS in 7 games})\) under the assumption that either \(P_B=0.55\) or \(P_B=0.45\). Explain your solution.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center"></th>
-<th align="center">Braves win WS in 7 games</th>
-<th align="center">Braves do NOT win WS in 7 games</th>
-<th align="center"></th>
-</tr>
-<tr class="odd">
-<td align="center">\(P_B = 0.55\)</td>
-<td align="center">0.083</td>
-<td align="center">0.417</td>
-<td align="center">0.5</td>
-</tr>
-<tr class="even">
-<td align="center">\(P_B = 0.45\)</td>
-<td align="center">0.068</td>
-<td align="center">0.432</td>
-<td align="center">0.5</td>
-</tr>
-<tr class="odd">
-<td align="center"></td>
-<td align="center">0.151</td>
-<td align="center">.849</td>
-<td align="center">1</td>
-</tr>
-</table>
-
-<p>\[P(P_B = 0.55 | \text{Braves win WS in 7 games}) = \frac{0.083}{0.083 + 0.068}\]</p>
-
-</article></slide><slide class=""><hgroup><h2>In class:</h2></hgroup><article  id="in-class">
-
-<p><strong>Q:</strong> Calculate \(P(P_B = 0.55 | \text{Braves win WS in 4 games})\) under the assumption that either \(P_B=0.55\) or \(P_B=0.50\) or \(P_B=0.45\). Use the prior that the possible values of \(P_B\) are equally likely.</p>
-
-</article></slide><slide class=""><hgroup><h2>In class:</h2></hgroup><article  id="in-class-1">
-
-<p><strong>Q:</strong> Calculate \(P(P_B = 0.55 | \text{Braves win WS in 4 games})\) under the assumption that either \(P_B=0.55\) or \(P_B=0.50\) or \(P_B=0.45\). Use the prior that the possible values of \(P_B\) are equally likely.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center"></th>
-<th align="center">Braves win WS in 4 games</th>
-<th align="center">Braves do NOT win WS in 4 games</th>
-<th align="center"></th>
-</tr>
-<tr class="odd">
-<td align="center">\(P_B = 0.55\)</td>
-<td align="center">0.031</td>
-<td align="center">0.303</td>
-<td align="center">1/3</td>
-</tr>
-<tr class="even">
-<td align="center">\(P_B = 0.50\)</td>
-<td align="center">0.021</td>
-<td align="center">0.312</td>
-<td align="center">1/3</td>
-</tr>
-<tr class="odd">
-<td align="center">\(P_B = 0.45\)</td>
-<td align="center">0.014</td>
-<td align="center">0.320</td>
-<td align="center">1/3</td>
-</tr>
-<tr class="even">
-<td align="center"></td>
-<td align="center">0.065</td>
-<td align="center">0.935</td>
-<td align="center">1</td>
-</tr>
-</table>
-
-</article></slide><slide class=""><hgroup><h2>In class:</h2></hgroup><article  id="in-class-2">
-
-<p><strong>Q:</strong> Calculate \(P(P_B = 0.55 | \text{Braves win WS in 4 games})\) under the assumption that either \(P_B=0.55\) or \(P_B=0.50\) or \(P_B=0.45\). Use the prior that the possible values of \(P_B\) are equally likely.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="center"></th>
-<th align="center">Braves win WS in 4 games</th>
-<th align="center">Braves do NOT win WS in 4 games</th>
-<th align="center"></th>
-</tr>
-<tr class="odd">
-<td align="center">\(P_B = 0.55\)</td>
-<td align="center">0.031</td>
-<td align="center">0.303</td>
-<td align="center">1/3</td>
-</tr>
-<tr class="even">
-<td align="center">\(P_B = 0.50\)</td>
-<td align="center">0.021</td>
-<td align="center">0.312</td>
-<td align="center">1/3</td>
-</tr>
-<tr class="odd">
-<td align="center">\(P_B = 0.45\)</td>
-<td align="center">0.014</td>
-<td align="center">0.320</td>
-<td align="center">1/3</td>
-</tr>
-<tr class="even">
-<td align="center"></td>
-<td align="center">0.065</td>
-<td align="center">0.935</td>
-<td align="center">1</td>
-</tr>
-</table>
-
-<p>\[P(P_B = 0.55 | \text{Braves ... 4 games}) = \frac{ 0.031}{0.031 + 0.021 + 0.014}\]</p>
-
-</article></slide><slide class=""><hgroup><h2>Calculation by simulation</h2></hgroup><article  id="calculation-by-simulation">
-
-<p>See <a href='https://biostatdata.app.vumc.org/tgs/world-series-simulation.R' title=''>example code (link)</a>.</p>
-
-</article></slide><slide class=""><hgroup><h2>From practice</h2></hgroup><article  id="from-practice">
-
-<p><strong>Q:</strong> Suppose there are 5 coins, 4 of which are fair and one with P(tails) = .25. A coin is randomly selected and flipped 3 times. Calculate the following:</p>
-
-<ul>
-<li>P( fair coin selected | flip sequence = TTT )</li>
-<li>P( 2 heads in 3 flips | biased coin selected )</li>
+<li>This is what you will discuss in the next deliverable.</li>
+</ul></li>
 </ul></article></slide>
 
 
