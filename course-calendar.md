@@ -36,12 +36,12 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | **Continuous Probability Models** | | 6 | |
 | → Cumulative Distribution Function | [slides](https://biostatdata.app.vumc.org/tgs/08-continuous-probability-models.html) | | [Lecture - Continuous probability models](https://vbiostat.app.vumc.org/index.php/s/93FxTFYLEc8LTdo) |
 | → Probability Density Function | [slides](https://biostatdata.app.vumc.org/tgs/08-continuous-probability-models.html) | | [Lecture - Continuous probability models](https://vbiostat.app.vumc.org/index.php/s/93FxTFYLEc8LTdo) |
-| → Uniform Random Variables  | | | |
-| → Normal Random Variables  | | | |
-| → Exponential Random Variables  | | | |
-| → Gamma Random Variables  | | | |
-| → Beta Random Variables  | | | |
-| → Mixture Distributions  | | | |
+| → Uniform Random Variables  | [slides](https://biostatdata.app.vumc.org/tgs/09-continuous-probability-models-part2.html)| |  [Lecture](https://vbiostat.app.vumc.org/index.php/s/MxBX2zMrHsz2RHL) <br> [Lecture](https://vbiostat.app.vumc.org/index.php/s/9GR9DyFAybmTxfZ) <br> [Practice Problems](https://vbiostat.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
+| → Normal Random Variables  | [slides](https://biostatdata.app.vumc.org/tgs/09-continuous-probability-models-part2.html) | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/MxBX2zMrHsz2RHL) <br> [Lecture](https://vbiostat.app.vumc.org/index.php/s/9GR9DyFAybmTxfZ) <br> [Practice Problems](https://vbiostat.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
+| → Exponential Random Variables  | [slides](https://biostatdata.app.vumc.org/tgs/09-continuous-probability-models-part2.html) | |  [Lecture](https://vbiostat.app.vumc.org/index.php/s/MxBX2zMrHsz2RHL) <br> [Lecture](https://vbiostat.app.vumc.org/index.php/s/9GR9DyFAybmTxfZ) <br> [Practice Problems](https://vbiostat.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
+| → Gamma Random Variables  | [slides](https://biostatdata.app.vumc.org/tgs/09-continuous-probability-models-part2.html) | |  [Lecture](https://vbiostat.app.vumc.org/index.php/s/MxBX2zMrHsz2RHL) <br> [Lecture](https://vbiostat.app.vumc.org/index.php/s/9GR9DyFAybmTxfZ) <br> [Practice Problems](https://vbiostat.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
+| → Beta Random Variables  | [slides](https://biostatdata.app.vumc.org/tgs/09-continuous-probability-models-part2.html) | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/MxBX2zMrHsz2RHL) <br> [Lecture](https://vbiostat.app.vumc.org/index.php/s/9GR9DyFAybmTxfZ) <br> [Practice Problems](https://vbiostat.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
+| → Mixture Distributions  | [slides](https://biostatdata.app.vumc.org/tgs/09-continuous-probability-models-part2.html) | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/MxBX2zMrHsz2RHL) <br> [Lecture](https://vbiostat.app.vumc.org/index.php/s/9GR9DyFAybmTxfZ) <br> [Practice Problems](https://vbiostat.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
 | **Expectation and Variance** | | 3.6, 4.1, 4.3, 6.5  | |
 | → Categorical, Ordinal, Interval, and Ratio Variables | | | |
 | → Covariance | | | |
@@ -89,5 +89,8 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-09-16 | [Practice Problems - Binomial, Negative binomial](https://vbiostat.app.vumc.org/index.php/s/ETed5MT7ycA6NQz) | 
 | 2020-09-18 | [Lecture - Poisson distribution](https://vbiostat.app.vumc.org/index.php/s/77iw36kT3YB5TfR) |
 | 2020-09-21 | [Lecture - Deliverable 3 question 5](https://vbiostat.app.vumc.org/index.php/s/HWEKG67wCAbrz9J) |
-| 2020-09-18 | [Lecture - World Series distribution](https://vbiostat.app.vumc.org/index.php/s/EmS88pZXriYTZPt) |
-| 2020-09-21 | [Lecture - Continuous probability models](https://vbiostat.app.vumc.org/index.php/s/93FxTFYLEc8LTdo) |
+| 2020-09-23 | [Lecture - World Series distribution](https://vbiostat.app.vumc.org/index.php/s/EmS88pZXriYTZPt) |
+| 2020-09-25 | [Lecture - Continuous probability models](https://vbiostat.app.vumc.org/index.php/s/93FxTFYLEc8LTdo) |
+| 2020-09-28 | [Lecture - Uniform, Normal, Gamma, Beta, Finite Mixture](https://vbiostat.app.vumc.org/index.php/s/MxBX2zMrHsz2RHL) |
+| 2020-09-30 | [Lecture - Practice problems](https://vbiostat.app.vumc.org/index.php/s/9GR9DyFAybmTxfZ) |
+| 2020-09-30 | [Practice Problems - Uniform, Normal, Gamma, Mixture distribution](https://vbiostat.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
