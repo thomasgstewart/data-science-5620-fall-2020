@@ -31,7 +31,7 @@ Part 1
 -   For each of the distributions below, generate 1000 samples of
     size 100. For each sample, calculate the geometric and arithmetic
     mean. Generate a scatter plot of the geometic and arithmetic sample
-    means.  
+    means. Add the line of identify as a reference line.
 
 -   Generate a histogram of the difference between the arithmetic mean
     and the geometric mean.
@@ -55,11 +55,8 @@ Part 1
 Part 2
 ------
 
-Show that if *X*<sub>*i*</sub> \> 0 for all *i*, then
-
-$$
-\\frac{1}{N} \\sum\_{i=1}^N X\_i \\geq \\left\[\\prod\_{i=1}^N X\_i\\right\]^{\\frac{1}{N}}.
-$$
+Show that if *X*<sub>*i*</sub> \> 0 for all *i*, then the arithmetic
+mean is greater than or equal to the geometric mean.
 
 Hint: Start with the sample mean of the transformation
 *Y*<sub>*i*</sub> = log (*X*<sub>*i*</sub>).
@@ -68,11 +65,7 @@ Part 3
 ------
 
 What is the correct relationship between *E*\[log (*X*)\] and
-log (*E*\[*X*\])? Explain your answer.
-
-$$
-E\[\\log(X)\]\\  \\begin{array}{c} \\leq \\\\ = \\\\ \\geq \\\\  \\end{array} \\ \\log\\left(E\[X\] \\right)
-$$
+log (*E*\[*X*\])? Is one always larger? Equal? Explain your answer.
 
 Submission instructions
 -----------------------
