@@ -43,7 +43,8 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Beta Random Variables  | [slides](https://biostatdata.app.vumc.org/tgs/09-continuous-probability-models-part2.html) | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/MxBX2zMrHsz2RHL) <br> [Lecture](https://vbiostat.app.vumc.org/index.php/s/9GR9DyFAybmTxfZ) <br> [Practice Problems](https://vbiostat.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
 | → Mixture Distributions  | [slides](https://biostatdata.app.vumc.org/tgs/09-continuous-probability-models-part2.html) | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/MxBX2zMrHsz2RHL) <br> [Lecture](https://vbiostat.app.vumc.org/index.php/s/9GR9DyFAybmTxfZ) <br> [Practice Problems](https://vbiostat.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
 | **Expectation and Variance** | | 3.6, 4.1, 4.3, 6.5  | |
-| → Categorical, Ordinal, Interval, and Ratio Variables | | | |
+| → Data Types | [slides](biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/GsJdXHk5Lgo8NJH)  |
+| → Categorical, Ordinal, Interval, and Ratio Variables | [slides](biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/8KLXGFK9k38zyKB) |
 | → Covariance | | | |
 | **Transformations of individual observations** | | | |
 | **Transformations of samples** | | 7 | |
@@ -94,3 +95,5 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-09-28 | [Lecture - Uniform, Normal, Gamma, Beta, Finite Mixture](https://vbiostat.app.vumc.org/index.php/s/MxBX2zMrHsz2RHL) |
 | 2020-09-30 | [Lecture - Practice problems](https://vbiostat.app.vumc.org/index.php/s/9GR9DyFAybmTxfZ) |
 | 2020-09-30 | [Practice Problems - Uniform, Normal, Gamma, Mixture distribution](https://vbiostat.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
+| 2020-10-02 | [Lecture - Data Types](https://vbiostat.app.vumc.org/index.php/s/GsJdXHk5Lgo8NJH) |  
+| 2020-10-05 | [Lecture - Expectation and Variance](https://vbiostat.app.vumc.org/index.php/s/8KLXGFK9k38zyKB) |  
