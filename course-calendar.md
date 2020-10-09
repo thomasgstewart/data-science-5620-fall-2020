@@ -8,6 +8,7 @@
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/02-monte-carlo-error.md'>Monte Carlo Error</a> | 2020-09-07 | 2020-09-25  |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/03-probability-calcs.md'>World Series</a> | 2020-09-21 | 2020-10-09 |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/04-world-series-home-field.md'>Home Field Advantage</a> | 2020-09-28 | 2020-10-19 |
+| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/05-log-transformation.md'>Log Transformation</a> | 2020-10-12 |  |
 
 
 ## Final Exam
@@ -45,7 +46,7 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | **Expectation and Variance** | | 3.6, 4.1, 4.3, 6.5  | |
 | → Data Types | [slides](biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/GsJdXHk5Lgo8NJH)  |
 | → Categorical, Ordinal, Interval, and Ratio Variables | [slides](biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/8KLXGFK9k38zyKB) |
-| → Covariance | | | |
+| → Covariance | [slides](biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/2kQNKji2i8FzfDC) |
 | **Transformations of individual observations** | | | |
 | **Transformations of samples** | | 7 | |
 | → Min and Max | | | |
@@ -97,3 +98,4 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-09-30 | [Practice Problems - Uniform, Normal, Gamma, Mixture distribution](https://vbiostat.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
 | 2020-10-02 | [Lecture - Data Types](https://vbiostat.app.vumc.org/index.php/s/GsJdXHk5Lgo8NJH) |  
 | 2020-10-05 | [Lecture - Expectation and Variance](https://vbiostat.app.vumc.org/index.php/s/8KLXGFK9k38zyKB) |  
+| 2020-10-07 | [Lecture - Covariance](https://vbiostat.app.vumc.org/index.php/s/2kQNKji2i8FzfDC) |
