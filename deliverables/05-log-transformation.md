@@ -40,13 +40,13 @@ Part 1
 
 *X* ∼ GAMMA(shape = 3, scale = 1)
 
-[Interactive plot (link)](https://www.desmos.com/calculator/zt78krngww)
+[Interactive plot (link)](https://www.desmos.com/calculator/wgqdkl5ogl)
 
 ### Distribution 2
 
 *X* ∼ LOG NORMAL(*μ* =  − 1, *σ* = 1)
 
-[Interactive plot (link)](https://www.desmos.com/calculator/ewuwdw5d2a)
+[Interactive plot (link)](https://www.desmos.com/calculator/rueernwrhl)
 
 ### Distribution 3
 
