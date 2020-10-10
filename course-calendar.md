@@ -47,7 +47,7 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Data Types | [slides](biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/GsJdXHk5Lgo8NJH)  |
 | → Categorical, Ordinal, Interval, and Ratio Variables | [slides](biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/8KLXGFK9k38zyKB) |
 | → Covariance | [slides](biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/2kQNKji2i8FzfDC) |
-| **Transformations of individual observations** | | | |
+| **Transformations of individual observations** | | | [Lecture](https://vbiostat.app.vumc.org/index.php/s/wp7ckAY7r4a688A)  |
 | **Transformations of samples** | | 7 | |
 | → Min and Max | | | |
 | → Quantiles | | | |
@@ -99,3 +99,6 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-10-02 | [Lecture - Data Types](https://vbiostat.app.vumc.org/index.php/s/GsJdXHk5Lgo8NJH) |  
 | 2020-10-05 | [Lecture - Expectation and Variance](https://vbiostat.app.vumc.org/index.php/s/8KLXGFK9k38zyKB) |  
 | 2020-10-07 | [Lecture - Covariance](https://vbiostat.app.vumc.org/index.php/s/2kQNKji2i8FzfDC) |
+| 2020-10-05 | [Lecture - Expectation and Variance](https://vbiostat.app.vumc.org/index.php/s/8KLXGFK9k38zyKB) |  
+| 2020-10-09 | [Lecture - Middle and Spread](https://vbiostat.app.vumc.org/index.php/s/wp7ckAY7r4a688A) |
+| 2020-10-10 | [Deliverable - Geometric Mean and Arithmetic Mean](https://vbiostat.app.vumc.org/index.php/s/Na4BR9jZPCgNq2s) |
