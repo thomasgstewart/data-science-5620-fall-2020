@@ -45,7 +45,7 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Mixture Distributions  | [slides](https://biostatdata.app.vumc.org/tgs/09-continuous-probability-models-part2.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/MxBX2zMrHsz2RHL) <br> [Lecture](https://vbiostat2.app.vumc.org/index.php/s/9GR9DyFAybmTxfZ) <br> [Practice Problems](https://vbiostat2.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
 | **Expectation and Variance** | | 3.6, 4.1, 4.3, 6.5  | |
 | → Data Types | [slides](https://biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/GsJdXHk5Lgo8NJH)  |
-| → Categorical, Ordinal, Interval, and Ratio Variables | [slides](biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/8KLXGFK9k38zyKB) |
+| → Categorical, Ordinal, Interval, and Ratio Variables | [slides](https://biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/8KLXGFK9k38zyKB) |
 | → Covariance | [slides](https://biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/2kQNKji2i8FzfDC) |
 | **Transformations of individual observations** | | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/wp7ckAY7r4a688A)  |
 | **Transformations of samples** | | 7 | |
