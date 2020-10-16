@@ -44,16 +44,17 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Beta Random Variables  | [slides](https://biostatdata.app.vumc.org/tgs/09-continuous-probability-models-part2.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/MxBX2zMrHsz2RHL) <br> [Lecture](https://vbiostat2.app.vumc.org/index.php/s/9GR9DyFAybmTxfZ) <br> [Practice Problems](https://vbiostat2.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
 | → Mixture Distributions  | [slides](https://biostatdata.app.vumc.org/tgs/09-continuous-probability-models-part2.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/MxBX2zMrHsz2RHL) <br> [Lecture](https://vbiostat2.app.vumc.org/index.php/s/9GR9DyFAybmTxfZ) <br> [Practice Problems](https://vbiostat2.app.vumc.org/index.php/s/qMqomiK8F7Cs55a) |
 | **Expectation and Variance** | | 3.6, 4.1, 4.3, 6.5  | |
-| → Data Types | [slides](biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/GsJdXHk5Lgo8NJH)  |
+| → Data Types | [slides](https://biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/GsJdXHk5Lgo8NJH)  |
 | → Categorical, Ordinal, Interval, and Ratio Variables | [slides](biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/8KLXGFK9k38zyKB) |
-| → Covariance | [slides](biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/2kQNKji2i8FzfDC) |
+| → Covariance | [slides](https://biostatdata.app.vumc.org/tgs/10-expectation-variance.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/2kQNKji2i8FzfDC) |
 | **Transformations of individual observations** | | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/wp7ckAY7r4a688A)  |
 | **Transformations of samples** | | 7 | |
 | → Min and Max | [slides](https://biostatdata.app.vumc.org/tgs/11-transformations-order-statistics.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/SP37t3kDEmCQ3sw)|
 | → Quantiles | [slides](https://biostatdata.app.vumc.org/tgs/11-transformations-order-statistics.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/SP37t3kDEmCQ3sw)||
-| → Order Statistics | [slides](https://biostatdata.app.vumc.org/tgs/11-transformations-order-statistics.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/SP37t3kDEmCQ3sw)||
+| → Order Statistics | [slides](https://biostatdata.app.vumc.org/tgs/11-transformations-order-statistics.html) <br> [application](https://biostatdata.app.vumc.org/tgs/12-applications-order-statistics.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/SP37t3kDEmCQ3sw)| |
 | → Sampling distributions | [slides](https://biostatdata.app.vumc.org/tgs/11-transformations-order-statistics.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/SP37t3kDEmCQ3sw)||
-| **Methods of Fitting Models** | | 8 | |
+| **Methods of Fitting Models** | [Lots of pdfs](https://www.desmos.com/calculator/qgpfi00qnb) | 8 | |
+| → QQ-plot | | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/XKTL5mrqipYGMLt)  |
 | → Method of moments | | | |
 | → Maximum likelihood | | | |
 | → Bayesian | | | |
@@ -102,4 +103,5 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-10-05 | [Lecture - Expectation and Variance](https://vbiostat2.app.vumc.org/index.php/s/8KLXGFK9k38zyKB) |  
 | 2020-10-09 | [Lecture - Middle and Spread](https://vbiostat2.app.vumc.org/index.php/s/wp7ckAY7r4a688A) |
 | 2020-10-10 | [Deliverable - Geometric Mean and Arithmetic Mean](https://vbiostat2.app.vumc.org/index.php/s/Na4BR9jZPCgNq2s) |
-| 2020-10-12 | [Lecture - Samples](https://vbiostat2.app.vumc.org/index.php/s/SP37t3kDEmCQ3sw)
+| 2020-10-12 | [Lecture - Samples](https://vbiostat2.app.vumc.org/index.php/s/SP37t3kDEmCQ3sw) |
+| 2020-10-14 | [Lecture - QQ plot, application of ordinal statistics](https://vbiostat2.app.vumc.org/index.php/s/XKTL5mrqipYGMLt) |
