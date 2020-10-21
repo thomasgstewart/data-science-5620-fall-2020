@@ -10,6 +10,7 @@
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/04-world-series-home-field.md'>Home Field Advantage</a> | 2020-09-28 | 2020-10-19 |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/05-log-transformation.md'>Log Transformation</a> | 2020-10-12 |  |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/06-order-statistics.md'>Order Statistics</a> | 2020-10-19 |  |
+| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/07-mle-mm.md'>MLE ane MM</a> | 2020-10-26 |  |
 
 ## Final Exam
 
@@ -55,8 +56,8 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Sampling distributions | [slides](https://biostatdata.app.vumc.org/tgs/11-transformations-order-statistics.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/SP37t3kDEmCQ3sw)||
 | **Methods of Fitting Models** | [Lots of pdfs](https://www.desmos.com/calculator/qgpfi00qnb) | 8 | |
 | → QQ-plot | | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/XKTL5mrqipYGMLt)  |
-| → Method of moments | | | |
-| → Maximum likelihood | | | |
+| → Method of moments | [slides](https://biostatdata.app.vumc.org/tgs/15-fitting-continuous-models-mle.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/wNJQqmcsrrDpqmf) |
+| → Maximum likelihood | [slides](https://biostatdata.app.vumc.org/tgs/15-fitting-continuous-models-mle.html)  | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/MAwTAxKLc4SSQ8F) |
 | → Bayesian | | | |
 | → Kernel Density Estimation | | | |
 | **Sampling Distributions from Fitted Models**| | | |
@@ -105,3 +106,5 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-10-10 | [Deliverable - Geometric Mean and Arithmetic Mean](https://vbiostat2.app.vumc.org/index.php/s/Na4BR9jZPCgNq2s) |
 | 2020-10-12 | [Lecture - Samples](https://vbiostat2.app.vumc.org/index.php/s/SP37t3kDEmCQ3sw) |
 | 2020-10-14 | [Lecture - QQ plot, application of ordinal statistics](https://vbiostat2.app.vumc.org/index.php/s/XKTL5mrqipYGMLt) |
+| 2020-10-16 | [Lecture - Method of Moments](https://vbiostat2.app.vumc.org/index.php/s/wNJQqmcsrrDpqmf) |
+| 2020-10-19 | [Lecture - MLE](https://vbiostat2.app.vumc.org/index.php/s/MAwTAxKLc4SSQ8F) |
