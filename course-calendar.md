@@ -57,7 +57,7 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | **Methods of Fitting Models** | [Lots of pdfs](https://www.desmos.com/calculator/qgpfi00qnb) | 8 | |
 | → QQ-plot | | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/XKTL5mrqipYGMLt)  |
 | → Method of moments | [slides](https://biostatdata.app.vumc.org/tgs/15-fitting-continuous-models-mle.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/wNJQqmcsrrDpqmf) |
-| → Maximum likelihood | [slides](https://biostatdata.app.vumc.org/tgs/15-fitting-continuous-models-mle.html)  | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/MAwTAxKLc4SSQ8F) |
+| → Maximum likelihood | [slides](https://biostatdata.app.vumc.org/tgs/15-fitting-continuous-models-mle.html)  | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/MAwTAxKLc4SSQ8F) <br> [Lecture](https://vbiostat2.app.vumc.org/index.php/s/XW6ZcQjAMDZwaJq) |
 | → Bayesian | | | |
 | → Kernel Density Estimation | | | |
 | **Sampling Distributions from Fitted Models**| | | |
@@ -108,3 +108,4 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-10-14 | [Lecture - QQ plot, application of ordinal statistics](https://vbiostat2.app.vumc.org/index.php/s/XKTL5mrqipYGMLt) |
 | 2020-10-16 | [Lecture - Method of Moments](https://vbiostat2.app.vumc.org/index.php/s/wNJQqmcsrrDpqmf) |
 | 2020-10-19 | [Lecture - MLE](https://vbiostat2.app.vumc.org/index.php/s/MAwTAxKLc4SSQ8F) |
+| 2020-10-21 | [Lecture - MLE and MM Deliverable](https://vbiostat2.app.vumc.org/index.php/s/XW6ZcQjAMDZwaJq) |

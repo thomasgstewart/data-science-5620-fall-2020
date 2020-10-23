@@ -41,7 +41,7 @@ Hmisc::getHdata(nhgh)
 d1 <- nhgh %>% 
   filter(sex == "female") %>% 
   filter(age >= 18) %>% 
-  select(gh, waist) %>% 
+  select(gh, ht) %>% 
   filter(1:n()<=1000)
 ```
 
