@@ -59,9 +59,9 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Method of moments | [slides](https://biostatdata.app.vumc.org/tgs/15-fitting-continuous-models-mle.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/wNJQqmcsrrDpqmf) |
 | → Maximum likelihood | [slides](https://biostatdata.app.vumc.org/tgs/15-fitting-continuous-models-mle.html)  | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/MAwTAxKLc4SSQ8F) <br> [Lecture](https://vbiostat2.app.vumc.org/index.php/s/XW6ZcQjAMDZwaJq) |
 | → Bayesian | | | |
-| → Kernel Density Estimation | | | |
+| → Kernel Density Estimation | [slides](https://biostatdata.app.vumc.org/tgs/14-fitting-continuous-models.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/3BBkLAFxESqLCXs) |
 | **Sampling Distributions from Fitted Models**| | | |
-| → Bootstrap | | | |
+| → Bootstrap | [slides](https://biostatdata.app.vumc.org/tgs/13-bootstrap.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/k5K2qmpPxbDL2bL) |
 | → Simulation | | | |
 | → Central Limit Theorem | | | |
 | **Simulation** | | | |
@@ -109,3 +109,5 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-10-16 | [Lecture - Method of Moments](https://vbiostat2.app.vumc.org/index.php/s/wNJQqmcsrrDpqmf) |
 | 2020-10-19 | [Lecture - MLE](https://vbiostat2.app.vumc.org/index.php/s/MAwTAxKLc4SSQ8F) |
 | 2020-10-21 | [Lecture - MLE and MM Deliverable](https://vbiostat2.app.vumc.org/index.php/s/XW6ZcQjAMDZwaJq) |
+| 2020-10-24 | [Lecture - Bootstrap](https://vbiostat2.app.vumc.org/index.php/s/k5K2qmpPxbDL2bL) |
+| 2020-10-26 | [Lecture - Kernel Density Estimation](https://vbiostat2.app.vumc.org/index.php/s/3BBkLAFxESqLCXs) |
