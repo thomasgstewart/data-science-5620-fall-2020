@@ -62,7 +62,7 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Kernel Density Estimation | [slides](https://biostatdata.app.vumc.org/tgs/14-fitting-continuous-models.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/3BBkLAFxESqLCXs) |
 | **Sampling Distributions from Fitted Models**| | | |
 | → Bootstrap | [slides](https://biostatdata.app.vumc.org/tgs/13-bootstrap.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/k5K2qmpPxbDL2bL) |
-| → Simulation | | | |
+| → Simulation | [slides](https://biostatdata.app.vumc.org/tgs/16-sampling-distributions-from-Fhat.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/Zbmi6Y7dFgYCGbb) <br> [Lecture](https://vbiostat2.app.vumc.org/index.php/s/gRbtbZPisscWWpa) |
 | → Central Limit Theorem | | | |
 | **Simulation** | | | |
 | → Parallel Computing | | | |
@@ -111,3 +111,5 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-10-21 | [Lecture - MLE and MM Deliverable](https://vbiostat2.app.vumc.org/index.php/s/XW6ZcQjAMDZwaJq) |
 | 2020-10-24 | [Lecture - Bootstrap](https://vbiostat2.app.vumc.org/index.php/s/k5K2qmpPxbDL2bL) |
 | 2020-10-26 | [Lecture - Kernel Density Estimation](https://vbiostat2.app.vumc.org/index.php/s/3BBkLAFxESqLCXs) |
+| 2020-10-28 | [Lecture - Sampling from Fitted Distributions](https://vbiostat2.app.vumc.org/index.php/s/Zbmi6Y7dFgYCGbb) |
+| 2020-10-30 | [Lecture - Uniform + quantile](https://vbiostat2.app.vumc.org/index.php/s/gRbtbZPisscWWpa) |
