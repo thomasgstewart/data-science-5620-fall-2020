@@ -114,9 +114,6 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-10-28 | [Lecture - Sampling from Fitted Distributions](https://vbiostat2.app.vumc.org/index.php/s/Zbmi6Y7dFgYCGbb) |
 | 2020-10-30 | [Lecture - Uniform + quantile](https://vbiostat2.app.vumc.org/index.php/s/gRbtbZPisscWWpa) |
 | 2020-10-31 | [Practice Question - Quantile function for mixture distribution](https://vbiostat2.app.vumc.org/index.php/s/ycgcoPbMSicNgoQ) |
-<<<<<<< HEAD
 | 2020-11-02 | [Lecture - U + Q vs B + Q](https://vbiostat2.app.vumc.org/index.php/s/wcg22Y39ni48mdN) |
 | 2020-11-06 | [Lecture - Breakout rooms (practice problems) ](https://vbiostat2.app.vumc.org/index.php/s/yFmWBfqkXiXWsQs) |
 | 2020-11-02 | [Lecture - Parallel Computing](https://vbiostat2.app.vumc.org/index.php/s/bKoLZ66NnfiFAxG) |
-=======
->>>>>>> 5fa4df646b6f545745ec35b1637bc08e004e0b81
