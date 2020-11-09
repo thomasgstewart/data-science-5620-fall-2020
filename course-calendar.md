@@ -9,8 +9,8 @@
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/03-probability-calcs.md'>World Series</a> | 2020-09-21 | 2020-10-09 |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-Fall-2020/blob/master/deliverables/04-world-series-home-field.md'>Home Field Advantage</a> | 2020-09-28 | 2020-10-19 |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/05-log-transformation.md'>Log Transformation</a> | 2020-10-12 | 2020-11-02  |
-| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/06-order-statistics.md'>Order Statistics</a> | 2020-10-19 |  |
-| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/07-mle-mm.md'>MLE ane MM</a> | 2020-10-26 |  |
+| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/06-order-statistics.md'>Order Statistics</a> | 2020-10-19 | 2020-11-09 |
+| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/07-mle-mm.md'>MLE ane MM</a> | 2020-10-26 | 2020-11-16 |
 
 ## Final Exam
 
@@ -114,6 +114,9 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-10-28 | [Lecture - Sampling from Fitted Distributions](https://vbiostat2.app.vumc.org/index.php/s/Zbmi6Y7dFgYCGbb) |
 | 2020-10-30 | [Lecture - Uniform + quantile](https://vbiostat2.app.vumc.org/index.php/s/gRbtbZPisscWWpa) |
 | 2020-10-31 | [Practice Question - Quantile function for mixture distribution](https://vbiostat2.app.vumc.org/index.php/s/ycgcoPbMSicNgoQ) |
+<<<<<<< HEAD
 | 2020-11-02 | [Lecture - U + Q vs B + Q](https://vbiostat2.app.vumc.org/index.php/s/wcg22Y39ni48mdN) |
 | 2020-11-06 | [Lecture - Breakout rooms (practice problems) ](https://vbiostat2.app.vumc.org/index.php/s/yFmWBfqkXiXWsQs) |
 | 2020-11-02 | [Lecture - Parallel Computing](https://vbiostat2.app.vumc.org/index.php/s/bKoLZ66NnfiFAxG) |
+=======
+>>>>>>> 5fa4df646b6f545745ec35b1637bc08e004e0b81
