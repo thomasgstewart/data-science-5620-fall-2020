@@ -11,6 +11,7 @@
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/05-log-transformation.md'>Log Transformation</a> | 2020-10-12 | 2020-11-02  |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/06-order-statistics.md'>Order Statistics</a> | 2020-10-19 | 2020-11-09 |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/07-mle-mm.md'>MLE ane MM</a> | 2020-10-26 | 2020-11-16 |
+| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/08-coverage-probability.md'>Coverage Probability</a> | 2020-11-16 |  |
 
 ## Final Exam
 
@@ -63,11 +64,10 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | **Sampling Distributions from Fitted Models**| | | |
 | → Bootstrap | [slides](https://biostatdata.app.vumc.org/tgs/13-bootstrap.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/k5K2qmpPxbDL2bL) |
 | → Simulation | [slides](https://biostatdata.app.vumc.org/tgs/16-sampling-distributions-from-Fhat.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/Zbmi6Y7dFgYCGbb) <br> [Lecture](https://vbiostat2.app.vumc.org/index.php/s/gRbtbZPisscWWpa) |
-| → Central Limit Theorem | | | |
+| → Central Limit Theorem | [slides](https://biostatdata.app.vumc.org/tgs/19-normal-distribution-clt.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/5t5RperMFNKo4DA) <br> [Lecture](https://vbiostat2.app.vumc.org/index.php/s/fiPLN3pTdXRp27B)  |
 | **Simulation** | | | |
-| → Parallel Computing | | | |
-| → Redis Computing | | | |
-| → Batch processing on ACCRE or AWS | | | |
+| → Parallel Computing | [slides](https://biostatdata.app.vumc.org/tgs/18-parallel-processing.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/yFmWBfqkXiXWsQs) |
+| → Batch processing on ACCRE or AWS | [slides](https://biostatdata.app.vumc.org/tgs/20-batch-processing-accre.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/bKoLZ66NnfiFAxG) |
 | **Multivariate Normal Distribution** | | 12 | |
 | → Fitting | | | |
 | → Conditional Distribution | | | |
@@ -115,5 +115,7 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-10-30 | [Lecture - Uniform + quantile](https://vbiostat2.app.vumc.org/index.php/s/gRbtbZPisscWWpa) |
 | 2020-10-31 | [Practice Question - Quantile function for mixture distribution](https://vbiostat2.app.vumc.org/index.php/s/ycgcoPbMSicNgoQ) |
 | 2020-11-02 | [Lecture - U + Q vs B + Q](https://vbiostat2.app.vumc.org/index.php/s/wcg22Y39ni48mdN) |
-| 2020-11-06 | [Lecture - Breakout rooms (practice problems) ](https://vbiostat2.app.vumc.org/index.php/s/yFmWBfqkXiXWsQs) |
-| 2020-11-02 | [Lecture - Parallel Computing](https://vbiostat2.app.vumc.org/index.php/s/bKoLZ66NnfiFAxG) |
+| 2020-11-04 | [Lecture - Breakout rooms (practice problems) ](https://vbiostat2.app.vumc.org/index.php/s/yFmWBfqkXiXWsQs) |
+| 2020-11-06 | [Lecture - Parallel Computing](https://vbiostat2.app.vumc.org/index.php/s/bKoLZ66NnfiFAxG) |
+| 2020-11-09 | [Lecture - CLT Shortcut](https://vbiostat2.app.vumc.org/index.php/s/5t5RperMFNKo4DA) |
+| 2020-11-11 | [Lecture - CLT Shortcut continued](https://vbiostat2.app.vumc.org/index.php/s/fiPLN3pTdXRp27B) |
