@@ -67,7 +67,9 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Central Limit Theorem | [slides](https://biostatdata.app.vumc.org/tgs/19-normal-distribution-clt.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/5t5RperMFNKo4DA) <br> [Lecture](https://vbiostat2.app.vumc.org/index.php/s/fiPLN3pTdXRp27B)  |
 | **Simulation** | | | |
 | → Parallel Computing | [slides](https://biostatdata.app.vumc.org/tgs/18-parallel-processing.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/yFmWBfqkXiXWsQs) |
-| → Batch processing on ACCRE or AWS | [slides](https://biostatdata.app.vumc.org/tgs/20-batch-processing-accre.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/bKoLZ66NnfiFAxG) |
+| → Batch processing on ACCRE or AWS | [slides](https://biostatdata.app.vumc.org/tgs/20-batch-processing-accre.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/bKoLZ66NnfiFAxG) <br> [Practice](https://vbiostat2.app.vumc.org/index.php/s/HGpKpjnX3NBtNi6)  |
+| **Inference**| | | |
+| → Sampling and Inference | | |[Lecture](https://vbiostat2.app.vumc.org/index.php/s/6Pbt7QijSmRowra) |
 | **Multivariate Normal Distribution** | | 12 | |
 | → Fitting | | | |
 | → Conditional Distribution | | | |
@@ -119,3 +121,5 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-11-06 | [Lecture - Parallel Computing](https://vbiostat2.app.vumc.org/index.php/s/bKoLZ66NnfiFAxG) |
 | 2020-11-09 | [Lecture - CLT Shortcut](https://vbiostat2.app.vumc.org/index.php/s/5t5RperMFNKo4DA) |
 | 2020-11-11 | [Lecture - CLT Shortcut continued](https://vbiostat2.app.vumc.org/index.php/s/fiPLN3pTdXRp27B) |
+| 2020-11-13 | [Lecture - Sampling and Inference](https://vbiostat2.app.vumc.org/index.php/s/6Pbt7QijSmRowra) |
+| 2020-11-14 | [Practice - Parallel Computing and ACCRE](https://vbiostat2.app.vumc.org/index.php/s/HGpKpjnX3NBtNi6) |
