@@ -70,6 +70,8 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Batch processing on ACCRE or AWS | [slides](https://biostatdata.app.vumc.org/tgs/20-batch-processing-accre.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/bKoLZ66NnfiFAxG) <br> [Practice](https://vbiostat2.app.vumc.org/index.php/s/HGpKpjnX3NBtNi6)  |
 | **Inference**| | | |
 | → Sampling and Inference | | |[Lecture](https://vbiostat2.app.vumc.org/index.php/s/6Pbt7QijSmRowra) |
+| → Inference with CI | [slides](https://biostatdata.app.vumc.org/tgs/inference2.pdf) | | |
+| → Inference with Hypothsis testing | [slides](https://biostatdata.app.vumc.org/tgs/inference2.pdf) | | |
 | **Multivariate Normal Distribution** | | 12 | |
 | → Fitting | | | |
 | → Conditional Distribution | | | |
