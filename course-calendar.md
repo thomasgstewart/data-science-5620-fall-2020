@@ -125,3 +125,4 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-11-11 | [Lecture - CLT Shortcut continued](https://vbiostat2.app.vumc.org/index.php/s/fiPLN3pTdXRp27B) |
 | 2020-11-13 | [Lecture - Sampling and Inference](https://vbiostat2.app.vumc.org/index.php/s/6Pbt7QijSmRowra) |
 | 2020-11-14 | [Practice - Parallel Computing and ACCRE](https://vbiostat2.app.vumc.org/index.php/s/HGpKpjnX3NBtNi6) |
+| 2020-11-16 | [Lecture - Inference with CI](https://vbiostat2.app.vumc.org/index.php/s/qa6o929zCR9agQP) |
