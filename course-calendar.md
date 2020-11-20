@@ -12,6 +12,7 @@
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/06-order-statistics.md'>Order Statistics</a> | 2020-10-19 | 2020-11-09 |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/07-mle-mm.md'>MLE ane MM</a> | 2020-10-26 | 2020-11-16 |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/08-coverage-probability.md'>Coverage Probability</a> | 2020-11-16 |  |
+| Wild Card.  Pick one of the following: <br> + <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/09-method-comparison.md'>Methods not equally good</a><br> + <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/10-clt.md'>Central Limit Theorem Shortcut</a><br> + <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/11-mvn.md'>Correlation and Inference</a> | 2020-12-02 |  |
 
 ## Final Exam
 
@@ -70,8 +71,8 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Batch processing on ACCRE or AWS | [slides](https://biostatdata.app.vumc.org/tgs/20-batch-processing-accre.html) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/bKoLZ66NnfiFAxG) <br> [Practice](https://vbiostat2.app.vumc.org/index.php/s/HGpKpjnX3NBtNi6)  |
 | **Inference**| | | |
 | → Sampling and Inference | | |[Lecture](https://vbiostat2.app.vumc.org/index.php/s/6Pbt7QijSmRowra) |
-| → Inference with CI | [slides](https://biostatdata.app.vumc.org/tgs/inference2.pdf) | | |
-| → Inference with Hypothsis testing | [slides](https://biostatdata.app.vumc.org/tgs/inference2.pdf) | | |
+| → Inference with CI | [slides](https://biostatdata.app.vumc.org/tgs/inference2.pdf) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/qa6o929zCR9agQP)  |
+| → Inference with Hypothsis testing | [slides](https://biostatdata.app.vumc.org/tgs/inference2.pdf) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/HnEHbeY8f9C7LKS) |
 | **Multivariate Normal Distribution** | | 12 | |
 | → Fitting | | | |
 | → Conditional Distribution | | | |
@@ -126,3 +127,4 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-11-13 | [Lecture - Sampling and Inference](https://vbiostat2.app.vumc.org/index.php/s/6Pbt7QijSmRowra) |
 | 2020-11-14 | [Practice - Parallel Computing and ACCRE](https://vbiostat2.app.vumc.org/index.php/s/HGpKpjnX3NBtNi6) |
 | 2020-11-16 | [Lecture - Inference with CI](https://vbiostat2.app.vumc.org/index.php/s/qa6o929zCR9agQP) |
+| 2020-11-18 | [Lecture - Inference with Hypothesis Testing](https://vbiostat2.app.vumc.org/index.php/s/HnEHbeY8f9C7LKS) |
