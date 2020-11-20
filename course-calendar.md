@@ -74,9 +74,10 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | → Inference with CI | [slides](https://biostatdata.app.vumc.org/tgs/inference2.pdf) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/qa6o929zCR9agQP)  |
 | → Inference with Hypothsis testing | [slides](https://biostatdata.app.vumc.org/tgs/inference2.pdf) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/HnEHbeY8f9C7LKS) |
 | **Multivariate Normal Distribution** | | 12 | |
-| → Fitting | | | |
-| → Conditional Distribution | | | |
-| → Marginal Distribution | | | |
+| → Properties | [slides](https://biostatdata.app.vumc.org/tgs/21-multivariate-normal-distributions.html) | | |
+| → Correlation | [slides](https://biostatdata.app.vumc.org/tgs/21-multivariate-normal-distributions.html) | | |
+| → Conditional Distribution | [slides](22-multivariate-conditional-distribution.html) | | |
+| → Marginal Distribution | [slides](22-multivariate-conditional-distribution.html) | | |
 
 ## Lecture and Office Hours Videos
 
