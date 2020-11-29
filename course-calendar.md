@@ -11,7 +11,7 @@
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/05-log-transformation.md'>Log Transformation</a> | 2020-10-12 | 2020-11-02  |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/06-order-statistics.md'>Order Statistics</a> | 2020-10-19 | 2020-11-09 |
 | <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/07-mle-mm.md'>MLE ane MM</a> | 2020-10-26 | 2020-11-16 |
-| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/08-coverage-probability.md'>Coverage Probability</a> | 2020-11-16 |  |
+| <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/08-coverage-probability.md'>Coverage Probability</a> | 2020-11-16 | 2020-12-12 |
 | Wild Card.  Pick one of the following: <br> + <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/09-method-comparison.md'>Methods not equally good</a><br> + <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/10-clt.md'>Central Limit Theorem Shortcut</a><br> + <a class = 'callink' href ='https://github.com/thomasgstewart/data-science-5620-fall-2020/blob/master/deliverables/11-mvn.md'>Correlation and Inference</a> | 2020-12-02 |  |
 
 ## Final Exam
