@@ -72,12 +72,12 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | **Inference**| | | |
 | → Sampling and Inference | | |[Lecture](https://vbiostat2.app.vumc.org/index.php/s/6Pbt7QijSmRowra) |
 | → Inference with CI | [slides](https://biostatdata.app.vumc.org/tgs/inference2.pdf) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/qa6o929zCR9agQP)  |
-| → Inference with Hypothsis testing | [slides](https://biostatdata.app.vumc.org/tgs/inference2.pdf) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/HnEHbeY8f9C7LKS) |
+| → Inference with Hypothsis testing | [slides](https://biostatdata.app.vumc.org/tgs/inference2.pdf) | | [Lecture](https://vbiostat2.app.vumc.org/index.php/s/HnEHbeY8f9C7LKS) <br> [Lecture](https://vbiostat2.app.vumc.org/index.php/s/tEeHi6obGmY5ePg) |
 | **Multivariate Normal Distribution** | | 12 | |
 | → Properties | [slides](https://biostatdata.app.vumc.org/tgs/21-multivariate-normal-distributions.html) | | |
 | → Correlation | [slides](https://biostatdata.app.vumc.org/tgs/21-multivariate-normal-distributions.html) | | |
-| → Conditional Distribution | [slides](22-multivariate-conditional-distribution.html) | | |
-| → Marginal Distribution | [slides](22-multivariate-conditional-distribution.html) | | |
+| → Conditional Distribution | [slides](https://biostatdata.app.vumc.org/tgs/22-multivariate-conditional-distribution.html) | | |
+| → Marginal Distribution | [slides](https://biostatdata.app.vumc.org/tgs/22-multivariate-conditional-distribution.html) | | |
 
 ## Lecture and Office Hours Videos
 
@@ -129,3 +129,4 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-11-14 | [Practice - Parallel Computing and ACCRE](https://vbiostat2.app.vumc.org/index.php/s/HGpKpjnX3NBtNi6) |
 | 2020-11-16 | [Lecture - Inference with CI](https://vbiostat2.app.vumc.org/index.php/s/qa6o929zCR9agQP) |
 | 2020-11-18 | [Lecture - Inference with Hypothesis Testing](https://vbiostat2.app.vumc.org/index.php/s/HnEHbeY8f9C7LKS) |
+| 2020-11-20 | [Lecture - Inference with p-values](https://vbiostat2.app.vumc.org/index.php/s/tEeHi6obGmY5ePg) |
