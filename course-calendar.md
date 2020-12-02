@@ -130,3 +130,4 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-11-16 | [Lecture - Inference with CI](https://vbiostat2.app.vumc.org/index.php/s/qa6o929zCR9agQP) |
 | 2020-11-18 | [Lecture - Inference with Hypothesis Testing](https://vbiostat2.app.vumc.org/index.php/s/HnEHbeY8f9C7LKS) |
 | 2020-11-20 | [Lecture - Inference with p-values](https://vbiostat2.app.vumc.org/index.php/s/tEeHi6obGmY5ePg) |
+| 2020-11-30 | [Lecture - Multivariate](https://vbiostat2.app.vumc.org/index.php/s/bPzT6MorfwXknRX) |
