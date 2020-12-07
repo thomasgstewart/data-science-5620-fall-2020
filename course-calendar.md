@@ -134,3 +134,6 @@ The final exam will occur between 7 December 2020 and 12 December 2020.  Student
 | 2020-12-02 | [Lecture - Conditional Multivariate](https://vbiostat2.app.vumc.org/index.php/s/2wSkbWcfjDFQD39) |
 | 2020-12-03 | [Office Hour - Final Exam](https://vbiostat2.app.vumc.org/index.php/s/LjdmXzFNYy3tzdN) |
 | 2020-12-04 | [Office Hour - 7am](https://vbiostat2.app.vumc.org/index.php/s/M9ysHH4zoJbNFwE) |
+| 2020-12-05 | [Office Hour - 10am](https://vbiostat2.app.vumc.org/index.php/s/GNLC3KzAXS5qNsz) |
+| 2020-12-05 | [Office Hour - 11:30am](https://vbiostat2.app.vumc.org/index.php/s/HfNzmYGCKCFkon9) |
+| 2020-12-06 | [Final Exam Hint](https://vbiostat2.app.vumc.org/index.php/s/o3BG6LCamr5cRH3) |
