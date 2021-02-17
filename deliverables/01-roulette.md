@@ -234,7 +234,7 @@ mean(walk_out_money - 200)
 
 
 
-Solution 2
+Solution 2 [(Video solution)](https://youtu.be/Bz7c24aAObg)
 ----------
 
 ``` r
